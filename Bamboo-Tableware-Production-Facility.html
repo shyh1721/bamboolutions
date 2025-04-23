@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bamboo Tableware Production Facility - Bamboolution</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+.production-card {
+transition: all 0.3s ease;
+}
+.production-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.production-card:hover .learn-more {
+color: #4D8B31;
+}
+input:focus {
+outline: none;
+}
+.stats-card {
+transition: transform 0.3s ease;
+}
+.stats-card:hover {
+transform: translateY(-5px);
+}
+.gallery-item {
+overflow: hidden;
+}
+.gallery-item img {
+transition: transform 0.5s ease;
+}
+.gallery-item:hover img {
+transform: scale(1.05);
+}
+.video-container {
+position: relative;
+}
+.play-button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease;
+}
+.play-button:hover {
+transform: translate(-50%, -50%) scale(1.1);
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="Home-page.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolution</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="Home-page.html" class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors">Home</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+Products
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="Bamboo-Fiber-Trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Trays</a>
+<a href="Bamboo-Fiber-Bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bowls</a>
+<a href="Bamboo-Fiber-Plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Plates</a>
+<a href="Bamboo-Fiber-Clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Clamshell Containers</a>
+<a href="Bamboo-Fiber-Sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Sushi Containers</a>
+<a href="Bamboo-Fiber-Bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bakery Containers</a>
+<a href="Bamboo-Fiber-Cup_Egg-Trays.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Cup Holders / Egg Trays</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+About Us
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="Company-Profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Company Profile</a>
+<a href="Bamboo-Plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bamboo Plantation</a>
+<a href="Fiber-Processing-Plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bamboo Fiber Plant</a>
+<a href="Bamboo-Tableware-Production-Facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Eco Tableware Factory</a>
+</div>
+</div>
+</div>
+<a href="Sustainable-Bamboo-Fiber-Process.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Sustainability</a>
+<a href="Contact-Information-Page.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+<div class="language-selector relative">
+<button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-global-line"></i>
+</div>
+<span>EN</span>
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="language-dropdown">
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+<a href="zh/Home-page.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+</div>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<div class="mt-16">
+<!-- Hero Section -->
+<section class="relative h-[500px] overflow-hidden">
+<div style="background-image: url('https://readdy.ai/api/search-image?query=modern%2520bamboo%2520tableware%2520manufacturing%2520facility%2520exterior%2520with%2520eco-friendly%2520architecture%2C%2520surrounded%2520by%2520bamboo%2520plants%2C%2520large%2520industrial%2520building%2520with%2520solar%2520panels%2520on%2520roof%2C%2520clean%2520and%2520sustainable%2520factory%2520design%2C%2520workers%2520entering%2520facility%2C%2520trucks%2520loading%2520finished%2520products%2C%2520blue%2520sky%2C%2520professional%2520architectural%2520photography&width=1920&height=1000&seq=1&orientation=landscape'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30"></div>
+<div class="container mx-auto px-6 h-full flex items-center relative z-10">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Bamboo Tableware Production Facility</h1>
+<p class="text-xl text-white/90 mb-6">State-of-the-art manufacturing plant transforming bamboo fiber into premium eco-friendly tableware and packaging solutions</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Statistics Section -->
+<section class="py-12 bg-white">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-line-chart-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">120,000</h3>
+<p class="text-gray-600">Tons Annual Production</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">High-capacity manufacturing of bamboo fiber finished products</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-robot-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">260</h3>
+<p class="text-gray-600">Production Machines</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">Fully automated molded tableware production equipment</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-building-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">110,000+</h3>
+<p class="text-gray-600">Square Meters</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">Expansive facility area for comprehensive production operations</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-money-dollar-circle-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">$84M</h3>
+<p class="text-gray-600">Total Investment</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">Significant capital investment in sustainable manufacturing</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Facility Overview Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Cutting-Edge Manufacturing Facility</h2>
+<p class="text-gray-600">Our Hunan Province production facility represents the culmination of our commitment to sustainable manufacturing excellence, utilizing bamboo fiber from our processing plant to create premium eco-friendly tableware.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div>
+<p class="text-gray-600 mb-6">Located in the heart of China's bamboo region, our state-of-the-art facility spans over 110,000 square meters and houses 260 fully automated production machines. With an annual production capacity of 120,000 tons, we're equipped to meet global demand for sustainable tableware solutions.</p>
+<p class="text-gray-600 mb-6">The facility incorporates advanced manufacturing technologies and stringent quality control systems to ensure every product meets our exacting standards. Our production lines are designed for maximum efficiency while maintaining our commitment to environmental responsibility.</p>
+<div class="grid grid-cols-2 gap-4 mt-8">
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center text-primary mr-3">
+<i class="ri-recycle-line text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">Zero Waste</h4>
+<p class="text-sm text-gray-600">Sustainable production</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center text-primary mr-3">
+<i class="ri-shield-check-line text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">ISO Certified</h4>
+<p class="text-sm text-gray-600">Quality standards</p>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=interior%2520of%2520modern%2520bamboo%2520tableware%2520manufacturing%2520facility%2520with%2520rows%2520of%2520automated%2520production%2520machines%2C%2520workers%2520in%2520clean%2520uniforms%2520monitoring%2520equipment%2C%2520bright%2520well-lit%2520factory%2520floor%2C%2520conveyor%2520belts%2520with%2520bamboo%2520fiber%2520products%2C%2520quality%2520control%2520stations%2C%2520professional%2520industrial%2520photography&width=800&height=600&seq=2&orientation=landscape" alt="Bamboo Tableware Production Facility Interior" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+</section>
+<!-- Video Showcase Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Facility Walkthrough</h2>
+<p class="text-gray-600">Take a virtual tour of our advanced manufacturing facility and witness our sustainable production process in action.</p>
+</div>
+<div class="video-container max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=panoramic%2520view%2520of%2520bamboo%2520tableware%2520manufacturing%2520facility%2520interior%2520with%2520production%2520lines%2C%2520workers%2520operating%2520machinery%2C%2520quality%2520control%2520stations%2C%2520packaging%2520area%2C%2520bright%2520modern%2520factory%2520with%2520clean%2520environment%2C%2520professional%2520industrial%2520photography%2C%2520wide%2520angle%2520shot&width=1200&height=675&seq=3&orientation=landscape" alt="Factory Walkthrough Video Thumbnail" class="w-full h-full object-cover">
+<div class="play-button w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center cursor-pointer shadow-lg">
+<div class="w-10 h-10 flex items-center justify-center text-white">
+<i class="ri-play-fill text-3xl"></i>
+</div>
+</div>
+</div>
+<div class="max-w-3xl mx-auto mt-8 text-center">
+<p class="text-gray-600">This comprehensive video tour showcases our entire production process, from raw bamboo fiber processing to final product packaging. Witness our commitment to quality, efficiency, and sustainability at every stage of manufacturing.</p>
+</div>
+</div>
+</section>
+<!-- Production Process Gallery -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Production Process</h2>
+<p class="text-gray-600">Our comprehensive manufacturing process transforms bamboo fiber into premium quality tableware through these key stages.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/c471f7feb053be16caacc382e893af43.png" alt="Raw Material Processing" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Raw Material Processing</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">1. Raw Material Processing</h3>
+<p class="text-gray-600 text-sm">Bamboo fiber from our processing plant is prepared and refined for production using our proprietary eco-friendly methods.</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/fb2958d929a57d4bf21d49a2fc7daa86.png" alt="Molding and Forming" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Molding and Forming</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">2. Molding and Forming</h3>
+<p class="text-gray-600 text-sm">Our advanced molding machines precisely shape bamboo fiber into various tableware products with consistent quality.</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/a05f2eb8a4e04d2d2c390bf56041e358.png" alt="Quality Control" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Quality Control</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">3. Quality Control</h3>
+<p class="text-gray-600 text-sm">Rigorous inspection processes ensure every product meets our strict standards for durability, safety, and appearance.</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/cb2253608543d4095713400f97f12989.png" alt="Packaging and Distribution" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Packaging and Distribution</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">4. Packaging and Distribution</h3>
+<p class="text-gray-600 text-sm">Products are packaged using eco-friendly materials and prepared for worldwide distribution to our global customers.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quality Standards Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Quality Standards & Certifications</h2>
+<p class="text-gray-600">Our facility adheres to the highest international quality and safety standards, ensuring our products meet global requirements.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-award-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">ISO 9001:2015</h3>
+<p class="text-gray-600">Certified quality management system ensuring consistent product quality and customer satisfaction.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-leaf-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">ISO 14001:2015</h3>
+<p class="text-gray-600">Environmental management certification demonstrating our commitment to sustainable manufacturing practices.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-shield-check-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">FDA Compliant</h3>
+<p class="text-gray-600">All products meet FDA requirements for food-contact safety, ensuring they're safe for consumer use.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-recycle-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">Biodegradable</h3>
+<p class="text-gray-600">Products certified to decompose naturally within 180 days in commercial composting facilities.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-plant-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">FSC Chain of Custody</h3>
+<p class="text-gray-600">Certification ensuring our bamboo is sourced from responsibly managed forests and plantations.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-test-tube-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">BSCI Compliant</h3>
+<p class="text-gray-600">Business Social Compliance Initiative certification for ethical labor practices and working conditions.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-16 bg-primary/10">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Experience Our Sustainable Production</h2>
+<p class="text-gray-600 mb-8">Interested in seeing our facility in action? Schedule a virtual tour or request product samples to experience our quality firsthand.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-medium transition-colors whitespace-nowrap">
+Schedule a Virtual Tour
+</button>
+<button class="bg-white hover:bg-gray-50 text-gray-800 px-6 py-3 !rounded-button font-medium border border-gray-200 transition-colors whitespace-nowrap">
+Request Product Samples
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="#" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolution</a>
+<p class="text-gray-400 mb-6">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-3">
+<li><a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/d0b79a71-af6f-4987-8ae2-550b73bb7afb" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Products</a></li>
+<li><a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/1e300991-8c6a-4616-8d78-b088796236f3" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Sustainability</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400">123 Eco Industrial Park, Green City, 200120, China</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400">+86 21 5555 8888</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400">info@bamboolution.com</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-time-line"></i>
+</div>
+<span class="ml-3 text-gray-400">Mon-Fri: 9:00 AM - 6:00 PM</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+<p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="Your email address" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors">
+Subscribe
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400">I agree to receive marketing communications from Bamboolution.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0">
+© 2025 Bamboolution. All rights reserved.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Terms & Conditions</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Privacy Policy</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox functionality
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+if (this.checked) {
+checkmark.classList.remove('hidden');
+} else {
+checkmark.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+<div class="p-4 flex justify-between items-center border-b">
+<span class="text-xl font-medium">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<nav class="p-4">
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>Products</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="#" class="block py-2 text-gray-700">Trays</a>
+<a href="#" class="block py-2 text-gray-700">Bowls</a>
+<a href="#" class="block py-2 text-gray-700">Plates</a>
+<a href="#" class="block py-2 text-gray-700">Clamshell Containers</a>
+<a href="#" class="block py-2 text-gray-700">Sushi Containers</a>
+<a href="#" class="block py-2 text-gray-700">Bakery Containers</a>
+<a href="#" class="block py-2 text-gray-700">Cup Holders / Egg Trays</a>
+</div>
+</div>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-primary font-medium">
+<span>About Us</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4">
+<a href="#" class="block py-2 text-gray-700">Company Profile</a>
+<a href="#" class="block py-2 text-gray-700">Bamboo Plantation</a>
+<a href="#" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
+<a href="#" class="block py-2 text-primary font-medium">Eco Tableware Factory</a>
+</div>
+</div>
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
+</nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Video play button functionality
+const playButton = document.querySelector('.play-button');
+if (playButton) {
+playButton.addEventListener('click', function() {
+alert('Video playback would start here in a production environment.');
+});
+}
+});
+</script>
+</body>
+</html>
