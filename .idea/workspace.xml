@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="" />
+    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/A01-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/A01-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/A01-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/A01-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/A01-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/A01-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ET7-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/ET7-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ET7-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/ET7-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ET7-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/ET7-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T09-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T09-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T09-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T09-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T09-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T09-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T13-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T13-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T13-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T13-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T13-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T13-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T18-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T18-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T18-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T18-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T18-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T18-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T21-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T21-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T21-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T21-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T21-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T21-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T22-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T22-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T22-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T22-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T22-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T22-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T23-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T23-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T23-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T23-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T23-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T23-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T24-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T24-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T24-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T24-S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/T24-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/T24-T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/bakery/cat-bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/bowls/cat-bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/clamshell/cat-clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/cup&amp;egg/cat-cup&amp;egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/plates/cat-plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/sushi/cat-sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/cat-trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/a01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/et7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/trays/t24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/tableware-facility.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +71,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2wAJcd8vNMTflsZsU3GmU9ZsSj7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.cat-trays.html.executor": "Run",
+    "JavaScript Debug.company-profile.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/product-details(en)/trays",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\trays" />
@@ -28,7 +106,11 @@
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\cup&amp;egg" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\clamshell" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\bowls" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\bakery" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\plates" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,6 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745400779983</updated>
       <workItem from="1745400784431" duration="16019000" />
+      <workItem from="1745478528522" duration="837000" />
     </task>
     <servers />
   </component>
