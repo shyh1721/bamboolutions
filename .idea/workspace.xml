@@ -4,130 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zh/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/bakery/bakery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/bowls/bowls.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/clamshell/clamshell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e30.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/plates/plates.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/sushi/sushi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/a01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/et7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/t24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/product/trays/trays.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/sustainability.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zh/tableware-facility.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/C2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/C2-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/C2-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/C4-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/C4-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/E12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/company-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/plantation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/processing-plant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/bakery/cat-bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bakery/bakery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/bowls/cat-bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bowls/bowls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/clamshell/cat-clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/clamshell/clamshell.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-1-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-1-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-1-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-1-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-1-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-1-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-2-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-2-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-2-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-2-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-2-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-2-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-3-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-3-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-3-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-3-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C2-3-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C2-3-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-1-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-1-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-1-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-1-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-1-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-1-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-2-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-2-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-2-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-2-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/C4-2-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/C4-2-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E12-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E12-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E12-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E12-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E12-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E12-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E15-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E15-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E15-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E15-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E15-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E15-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E30-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E30-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E30-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E30-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/E30-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cup&amp;egg/E30-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/c2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/c2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/c2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/c4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/c4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/cat-cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/e12.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/e15.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/cup&amp;egg/e30.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e30.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/plates/cat-plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/plates/plates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/sushi/cat-sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/sushi/sushi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/A01-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/A01-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/A01-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/A01-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/A01-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/A01-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/ET7-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/ET7-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/ET7-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/ET7-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/ET7-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/ET7-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T09-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T09-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T09-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T09-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T09-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T09-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T13-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T13-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T13-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T13-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T13-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T13-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T18-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T18-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T18-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T18-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T18-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T18-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T21-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T21-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T21-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T21-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T21-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T21-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T22-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T22-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T22-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T22-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T22-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T22-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T23-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T23-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T23-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T23-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T23-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T23-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T24-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T24-B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T24-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T24-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/T24-T.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/trays/T24-T.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/a01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/cat-trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/trays.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/et7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t24.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/tableware-facility.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/company-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/plantation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/processing-plant.html" afterDir="false" />
-    </list>
+    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745400779983</updated>
       <workItem from="1745400784431" duration="16019000" />
-      <workItem from="1745478528522" duration="19651000" />
+      <workItem from="1745478528522" duration="20187000" />
     </task>
     <servers />
   </component>
