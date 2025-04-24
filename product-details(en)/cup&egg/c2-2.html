@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bamboo Fiber 2 Cup Holder Tray - reinforced - Bamboolution</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+.category-link {
+position: relative;
+}
+.category-link::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.category-link:hover::after, .category-link.active::after {
+width: 100%;
+}
+input:focus {
+outline: none;
+}
+.zoom-container {
+  position: relative;
+  margin-bottom: 2rem; /* Add space below main image */
+  z-index: 10; /* Ensure zoom stays above thumbnails */
+}
+
+/* Thumbnails Container */
+.thumbnails-container {
+  position: relative;
+  margin-top: 1.5rem; /* Add space above thumbnails */
+  padding-bottom: 0.5rem; /* Prevent scrollbar overlap */
+  z-index: 5; /* Keep below main image zoom */
+}
+
+/* Zoom Elements Positioning */
+.zoom-lens {
+  top: 0;
+  left: 0;
+  transform: translate(calc(-50% + 75px), calc(-50% + 75px)); /* Center lens */
+}
+
+.zoom-result {
+  top: 50%;
+  left: calc(100% + 2rem);
+  transform: translateY(-50%);
+  z-index: 100; /* Ensure zoom result is on top */
+}
+
+/* Navigation Arrows */
+#prevBtn, #nextBtn {
+  z-index: 20; /* Keep arrows above everything */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .zoom-container {
+    margin-bottom: 1rem;
+  }
+
+  .zoom-result {
+    display: none !important; /* Hide zoom on mobile */
+  }
+
+  .thumbnails-container {
+    margin-top: 1rem;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="/index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolution</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="/index.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Home</a>
+<div class="relative group">
+<button class="nav-link active text-primary font-medium transition-colors flex items-center">
+Products
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="/cat-trays.html"  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Trays</a>
+<a href="/cat-bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bowls</a>
+<a href="/cat-plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Plates</a>
+<a href="/cat-clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Clamshell Containers</a>
+<a href="/cat-sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Sushi Containers</a>
+<a href="/cat-bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bakery Containers</a>
+<a href="/cat-cup&egg.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Cup Holders / Egg Trays</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+About Us
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="/company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Company Profile</a>
+<a href="/plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bamboo Plantation</a>
+<a href="/processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bamboo Fiber Plant</a>
+<a href="/tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Eco Tableware Factory</a>
+</div>
+</div>
+</div>
+<a href="/sustainability.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Sustainability</a>
+<a href="/contact.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+<div class="language-selector relative">
+<button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-global-line"></i>
+</div>
+<span>EN</span>
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="language-dropdown">
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+<a href="/zh/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+</div>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="mt-16 pt-8">
+<!-- Breadcrumb -->
+<div class="bg-gray-50 py-4">
+<div class="container mx-auto px-4">
+<div class="flex items-center text-sm text-gray-600">
+<a href="/index.html" class="hover:text-primary transition-colors">Home</a>
+<div class="w-4 h-4 flex items-center justify-center mx-1">
+<i class="ri-arrow-right-s-line"></i>
+</div>
+<a href="/category.html" class="hover:text-primary transition-colors">Products</a>
+<div class="w-4 h-4 flex items-center justify-center mx-1">
+<i class="ri-arrow-right-s-line"></i>
+</div>
+<a href="cat-cup&egg.html" class="hover:text-primary transition-colors">Cup Holders / Egg Trays</a>
+<div class="w-4 h-4 flex items-center justify-center mx-1">
+<i class="ri-arrow-right-s-line"></i>
+</div>
+<span class="text-primary font-medium">Bamboo Fiber 2 Cup Holder Tray - reinforced</span>
+</div>
+</div>
+</div>
+<!-- Product Detail Section -->
+<div class="container mx-auto px-4 py-8">
+<div class="flex flex-col md:flex-row">
+<!-- Left Sidebar - Categories -->
+<div class="w-full md:w-1/5 md:pr-8 mb-8 md:mb-0">
+<div class="bg-white rounded-lg shadow-sm p-6 sticky top-24">
+<h3 class="text-lg font-semibold mb-4 text-gray-900">Product Categories</h3>
+<ul class="space-y-3">
+<li>
+<a href="/cat-trays.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Trays</a>
+</li>
+<li>
+<a href="/cat-bowls.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Bowls</a>
+</li>
+<li>
+<a href="/cat-plates.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Plates</a>
+</li>
+<li>
+<a href="/cat-clamshell.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Clamshell Containers</a>
+</li>
+<li>
+<a href="/cat-sushi.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Sushi Containers</a>
+</li>
+<li>
+<a href="/cat-bakery.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100">Bakery Containers</a>
+</li>
+<li>
+<a href="/cat-cup&egg.html" data-readdy="true" class="category-link active block py-2 text-primary font-medium border-b border-gray-100">Cup Holders / Egg Trays</a>
+</li>
+</ul>
+<div class="mt-10 bg-gray-50 p-4 rounded-lg">
+<h4 class="font-medium text-gray-900 mb-3">Need Help?</h4>
+<p class="text-gray-600 text-sm mb-3">Contact our product specialists for personalized assistance.</p>
+<div class="flex items-center text-sm text-gray-700 mb-2">
+<div class="w-5 h-5 flex items-center justify-center mr-2">
+<i class="ri-mail-line"></i>
+</div>
+<a href="mailto:info@bamboolution.com" class="hover:text-primary transition-colors">Email Us</a>
+</div>
+<div class="flex items-center text-sm text-gray-700">
+<div class="w-5 h-5 flex items-center justify-center mr-2">
+<i class="ri-phone-line"></i>
+</div>
+<span>+86 21 5555 8888</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Area -->
+<div class="w-full md:w-4/5">
+<div class="bg-white rounded-lg shadow-sm p-6 md:p-8">
+<!-- Product Title Section -->
+<div class="mb-8">
+<h1 class="text-3xl font-bold text-gray-900">Bamboo Fiber 2 Cup Holder Tray - reinforced</h1>
+<div class="flex items-center mt-2">
+<span class="text-gray-500 mr-4">Product Code: C2-2</span>
+</div>
+</div>
+<!-- Product Gallery and Info -->
+<div class="flex flex-col lg:flex-row">
+<!-- Product Gallery -->
+<div class="w-full lg:w-3/5 lg:pr-8 mb-8 lg:mb-0">
+  <!-- Main Image with Zoom -->
+  <div class="relative mb-8"> <!-- Increased margin-bottom -->
+    <div class="zoom-container rounded-lg overflow-hidden border border-gray-100 h-[400px]" id="mainImageContainer">
+      <div class="zoom-lens" id="zoomLens"></div>
+      <img src="C2-2-T.png" alt="Bamboo Fiber 2 Cup Holder Tray - reinforced"
+           class="w-full h-full object-contain object-center"
+           id="mainImage">
+      <div class="zoom-result" id="zoomResult"></div>
+    </div>
+
+    <!-- Image Counter -->
+    <div class="absolute bottom-4 right-4 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">
+      <span id="currentImage">1</span>/<span id="totalImages">4</span>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="absolute top-1/2 left-4 transform -translate-y-1/2 ..." id="prevBtn">
+      <i class="ri-arrow-left-s-line text-xl"></i>
+    </button>
+    <button class="absolute top-1/2 right-4 transform -translate-y-1/2 ..." id="nextBtn">
+      <i class="ri-arrow-right-s-line text-xl"></i>
+    </button>
+  </div>
+<!-- Thumbnails -->
+ <div class="thumbnails-container"> <!-- Added wrapper div -->
+    <div class="flex space-x-3 overflow-x-auto pb-2">
+        <button class="thumbnail-btn w-20 h-20 rounded border-2 border-primary overflow-hidden flex-shrink-0 active">
+        <img src="C2-2-T.png" alt="Bamboo Fiber 2 Cup Holder Tray - reinforced - Front View" class="w-full h-full object-cover object-top">
+        </button>
+        <button class="thumbnail-btn w-20 h-20 rounded border-2 border-gray-100 overflow-hidden flex-shrink-0">
+        <img src="C2-2-S.png" alt="Bamboo Fiber 2 Cup Holder Tray - reinforced - Side View" class="w-full h-full object-cover object-top">
+        </button>
+        <button class="thumbnail-btn w-20 h-20 rounded border-2 border-gray-100 overflow-hidden flex-shrink-0">
+        <img src="C2-2-B.png" alt="Bamboo Fiber 2 Cup Holder Tray - reinforced - Top View" class="w-full h-full object-cover object-top">
+        </button>
+    </div>
+  </div>
+</div>
+<!-- Product Info -->
+<div class="w-full lg:w-2/5">
+
+<!-- Sample Request -->
+<div class="mt-8 p-4 bg-gray-50 rounded-lg">
+<h3 class="font-medium text-gray-900 mb-2">Request Product Information</h3>
+<p class="text-gray-600 text-sm mb-3">Interested in this product? Contact our sales team for detailed information and sample requests.</p>
+<a href="#" class="inline-flex items-center bg-primary hover:bg-primary/90 text-white px-4 py-2 font-medium !rounded-button whitespace-nowrap transition-colors">
+Contact Sales
+<div class="w-5 h-5 ml-1 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+<!-- Product Specifications -->
+<div class="mt-12">
+<h2 class="text-2xl font-semibold mb-6 text-gray-900">Product Specifications</h2>
+<div class="overflow-x-auto">
+<table class="w-full border-collapse">
+<tbody>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium w-1/3">Case size</td>
+<td class="py-3 text-gray-700">200</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Pack size</td>
+<td class="py-3 text-gray-700">50</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Packs per case</td>
+<td class="py-3 text-gray-700">4</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Product dimensions</td>
+<td class="py-3 text-gray-700">23cm x 21cm</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Case dimensions (cm)</td>
+<td class="py-3 text-gray-700">19.75 x 18.5 x 22</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Product Weight per piece</td>
+<td class="py-3 text-gray-700">28g</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Product Weight per case</td>
+<td class="py-3 text-gray-700">21kg</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Home Compostable</td>
+<td class="py-3 text-gray-700">Yes</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Industrial Compostable</td>
+<td class="py-3 text-gray-700">Yes</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Recyclable</td>
+<td class="py-3 text-gray-700">Yes</td>
+</tr>
+<tr class="border-b border-gray-100">
+<td class="py-3 text-gray-700 font-medium">Use</td>
+<td class="py-3 text-gray-700">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Usage Suggestions -->
+<div class="mt-12">
+<h2 class="text-2xl font-semibold mb-6 text-gray-900">Recommended Applications</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-restaurant-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Restaurants & Cafés</h3>
+<p class="text-gray-600 text-sm">Perfect for serving appetizers, desserts, or as a base for plated dishes. Adds an eco-friendly touch to your table presentation.</p>
+</div>
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-hotel-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Hotels & Resorts</h3>
+<p class="text-gray-600 text-sm">Ideal for room service, breakfast presentations, or amenity displays. Aligns with sustainability initiatives while maintaining luxury aesthetics.</p>
+</div>
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-takeaway-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Catering & Events</h3>
+<p class="text-gray-600 text-sm">Excellent for buffet setups, passed hors d'oeuvres, or individual meal service at events. Reduces waste while enhancing presentation.</p>
+</div>
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-store-2-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Retail Food Display</h3>
+<p class="text-gray-600 text-sm">Great for bakeries, delis, and specialty food shops to showcase products. The natural aesthetic highlights the quality of your offerings.</p>
+</div>
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-home-smile-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Home Entertaining</h3>
+<p class="text-gray-600 text-sm">Stylish solution for serving snacks, cheese boards, or cocktails when hosting. Conversation starter about sustainable choices.</p>
+</div>
+<div class="bg-gray-50 p-5 rounded-lg">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-ship-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2">Cruise Ships & Airlines</h3>
+<p class="text-gray-600 text-sm">Lightweight alternative for food service that reduces waste disposal challenges while meeting sustainability goals.</p>
+</div>
+</div>
+</div>
+<!-- Related Products -->
+<div class="mt-16 hidden" >
+<h2 class="text-2xl font-semibold mb-6 text-gray-900">You May Also Like</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Related Product 1 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/28d9b66c6ca5cbd1508448f601893ab6.png" alt="Square Serving Tray" class="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105">
+</div>
+<div class="p-5">
+<h3 class="text-lg font-semibold mb-1">Square Serving Tray</h3>
+<p class="text-gray-500 text-sm mb-3">BT-2020</p>
+<a href="#" class="inline-flex items-center text-primary hover:text-primary/80 font-medium !rounded-button whitespace-nowrap transition-colors">
+View Details
+<div class="w-5 h-5 ml-1 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+<!-- Related Product 2 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/9d065409441a17bcffbaf019a43678ec.png" alt="Oval Serving Tray" class="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105">
+</div>
+<div class="p-5">
+<h3 class="text-lg font-semibold mb-1">Oval Serving Tray</h3>
+<p class="text-gray-500 text-sm mb-3">BT-3015</p>
+<a href="#" class="inline-flex items-center text-primary hover:text-primary/80 font-medium !rounded-button whitespace-nowrap transition-colors">
+View Details
+<div class="w-5 h-5 ml-1 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+<!-- Related Product 3 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/8026452fbf239e0bce4d760748c6aba7.png" alt="3-Compartment Tray" class="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105">
+</div>
+<div class="p-5">
+<h3 class="text-lg font-semibold mb-1">3-Compartment Tray</h3>
+<p class="text-gray-500 text-sm mb-3">BT-2530-3C</p>
+<a href="#" class="inline-flex items-center text-primary hover:text-primary/80 font-medium !rounded-button whitespace-nowrap transition-colors">
+View Details
+<div class="w-5 h-5 ml-1 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="/index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolution</a>
+<p class="text-gray-400 mb-6">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-3">
+<li><a href="/index.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+<li><a href="/category.html" class="text-gray-400 hover:text-white transition-colors">Products</a></li>
+<li><a href="/company-profile.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+<li><a href="/sustainability.html" class="text-gray-400 hover:text-white transition-colors">Sustainability</a></li>
+<li><a href="/contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+<li><a href="/faq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400">123 Eco Industrial Park, Green City, 200120, China</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400">+86 21 5555 8888</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400">info@bamboolution.com</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-time-line"></i>
+</div>
+<span class="ml-3 text-gray-400">Mon-Fri: 9:00 AM - 6:00 PM</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+<p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="Your email address" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors">
+Subscribe
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400">I agree to receive marketing communications from Bamboolution.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0">
+© 2025 Bamboolution. All rights reserved.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Terms & Conditions</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Privacy Policy</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Custom checkbox functionality
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+            this.checked ? checkmark.classList.remove('hidden') : checkmark.classList.add('hidden');
+        });
+    });
+
+    // Image gallery functionality
+    const mainImage = document.getElementById('mainImage');
+    const thumbnailBtns = document.querySelectorAll('.thumbnail-btn');
+    const currentImageEl = document.getElementById('currentImage');
+    const totalImagesEl = document.getElementById('totalImages');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentIndex = 0;
+    const totalImages = thumbnailBtns.length;
+    totalImagesEl.textContent = totalImages;
+
+    // Update main image function
+    function updateMainImage(index) {
+        thumbnailBtns.forEach(btn => {
+            btn.classList.remove('border-primary', 'border-gray-100');
+            btn.classList.add('border-gray-100');
+        });
+        thumbnailBtns[index].classList.replace('border-gray-100', 'border-primary');
+        mainImage.src = thumbnailBtns[index].querySelector('img').src;
+        currentImageEl.textContent = index + 1;
+        currentIndex = index;
+    }
+
+    // Thumbnail events
+    thumbnailBtns.forEach((btn, index) => {
+        btn.addEventListener('click', () => updateMainImage(index));
+    });
+
+    // Navigation controls
+    prevBtn.addEventListener('click', () => {
+        updateMainImage((currentIndex - 1 + totalImages) % totalImages);
+    });
+    nextBtn.addEventListener('click', () => {
+        updateMainImage((currentIndex + 1) % totalImages);
+    });
+
+    // Enhanced zoom functionality
+    const zoomContainer = document.getElementById('mainImageContainer');
+    const zoomLens = document.getElementById('zoomLens');
+    const zoomResult = document.getElementById('zoomResult');
+    let zoomActive = false;
+    let zoomResultOffset = 20; // Space between image and zoom result
+
+    function calculateZoom() {
+        const containerRect = zoomContainer.getBoundingClientRect();
+        const imgWidth = mainImage.naturalWidth;
+        const imgHeight = mainImage.naturalHeight;
+
+        return {
+            scaleX: imgWidth / containerRect.width,
+            scaleY: imgHeight / containerRect.height,
+            containerRect
+        };
+    }
+
+    function updateZoom(e) {
+        const { scaleX, scaleY, containerRect } = calculateZoom();
+        const x = e.clientX - containerRect.left;
+        const y = e.clientY - containerRect.top;
+
+        // Lens positioning with boundaries
+        const lensX = Math.max(0, Math.min(x - zoomLens.offsetWidth/2, containerRect.width - zoomLens.offsetWidth));
+        const lensY = Math.max(0, Math.min(y - zoomLens.offsetHeight/2, containerRect.height - zoomLens.offsetHeight));
+
+        zoomLens.style.transform = `translate(${lensX}px, ${lensY}px)`;
+
+        // Zoom result positioning
+        const resultX = -lensX * scaleX;
+        const resultY = -lensY * scaleY;
+        zoomResult.style.backgroundPosition = `${resultX}px ${resultY}px`;
+
+        // Keep zoom result in viewport
+        const viewportRight = window.innerWidth;
+        const resultRight = containerRect.right + zoomResult.offsetWidth + zoomResultOffset;
+        zoomResult.style.left = resultRight > viewportRight ?
+            `-${zoomResult.offsetWidth + zoomResultOffset}px` :
+            `${containerRect.width + zoomResultOffset}px`;
+    }
+
+    // Zoom event handlers
+    zoomContainer.addEventListener('mouseenter', () => {
+        if (window.innerWidth >= 1024) {
+            zoomLens.style.display = 'block';
+            zoomResult.style.display = 'block';
+            zoomActive = true;
+
+            // Initialize zoom properties
+            const { scaleX, scaleY } = calculateZoom();
+            zoomResult.style.backgroundImage = `url(${mainImage.src})`;
+            zoomResult.style.backgroundSize = `${mainImage.naturalWidth * scaleX}px ${mainImage.naturalHeight * scaleY}px`;
+        }
+    });
+
+    zoomContainer.addEventListener('mouseleave', () => {
+        zoomLens.style.display = zoomResult.style.display = 'none';
+        zoomActive = false;
+    });
+
+    zoomContainer.addEventListener('mousemove', e => {
+        if (zoomActive) {
+            e.preventDefault();
+            updateZoom(e);
+        }
+    });
+
+    // Window resize handler
+    window.addEventListener('resize', () => {
+        if (zoomActive) {
+            const { scaleX, scaleY } = calculateZoom();
+            zoomResult.style.backgroundSize = `${mainImage.naturalWidth * scaleX}px ${mainImage.naturalHeight * scaleY}px`;
+        }
+    });
+});
+</script>
+</body>
+</html>
