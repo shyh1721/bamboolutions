@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-details(en)/cup&amp;egg/cat-cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/cup&amp;egg/cat-cup&amp;egg.html" afterDir="false" />
-    </list>
+    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,26 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.a01.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-trays.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.company-profile.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Documents/GitHub/bamboolutions/product-details(en)/trays&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.a01.html.executor": "Run",
+    "JavaScript Debug.c2-1.html.executor": "Run",
+    "JavaScript Debug.cat-cup&egg.html.executor": "Run",
+    "JavaScript Debug.cat-trays.html.executor": "Run",
+    "JavaScript Debug.company-profile.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/product-details(en)/cup&egg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\cup&amp;egg" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)\trays" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\product-details(en)" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets" />
@@ -116,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745400779983</updated>
       <workItem from="1745400784431" duration="16019000" />
-      <workItem from="1745478528522" duration="7394000" />
+      <workItem from="1745478528522" duration="7709000" />
     </task>
     <servers />
   </component>
