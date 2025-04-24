@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/bakery/cat-bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/bakery/cat-bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/bowls/cat-bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/bowls/cat-bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/clamshell/cat-clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/clamshell/cat-clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/plates/cat-plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/plates/cat-plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-details(en)/sushi/cat-sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-details(en)/sushi/cat-sushi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,8 @@
   "keyToString": {
     "JavaScript Debug.a01.html.executor": "Run",
     "JavaScript Debug.c2-1.html.executor": "Run",
+    "JavaScript Debug.cat-bakery.html.executor": "Run",
+    "JavaScript Debug.cat-bowls.html.executor": "Run",
     "JavaScript Debug.cat-cup&egg.html.executor": "Run",
     "JavaScript Debug.cat-trays.html.executor": "Run",
     "JavaScript Debug.company-profile.html.executor": "Run",
@@ -122,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745400779983</updated>
       <workItem from="1745400784431" duration="16019000" />
-      <workItem from="1745478528522" duration="9477000" />
+      <workItem from="1745478528522" duration="9958000" />
     </task>
     <servers />
   </component>
