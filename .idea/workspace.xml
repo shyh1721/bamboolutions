@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="" />
+    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.a01.html.executor": "Run",
     "JavaScript Debug.cat-trays.html.executor": "Run",
     "JavaScript Debug.company-profile.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745400779983</updated>
       <workItem from="1745400784431" duration="16019000" />
-      <workItem from="1745478528522" duration="2891000" />
+      <workItem from="1745478528522" duration="4368000" />
     </task>
     <servers />
   </component>
