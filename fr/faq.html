@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ - Bamboolution</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.language-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    z-index: 50;
+    min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+    display: block;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4D8B31;
+    transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+}
+.faq-item {
+    border-bottom: 1px solid #e5e7eb;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-question {
+    cursor: pointer;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+.faq-answer.active {
+    max-height: 1000px;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    opacity: 1;
+}
+.faq-icon {
+    transition: transform 0.3s ease;
+}
+.faq-icon.active {
+    transform: rotate(180deg);
+}
+input:focus {
+    outline: none;
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="../index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolution</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="../index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Accueil</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+Produits
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="product/trays/trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Plateaux</a>
+<a href="product/bowls/bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bols</a>
+<a href="product/plates/plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Assiettes</a>
+<a href="product/clamshell/clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Contenants en coquillage</a>
+<a href="product/sushi/sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Contenants à sushi</a>
+<a href="product/bakery/bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Contenants de pâtisserie</a>
+<a href="product/cup&egg/cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Porte-gobelets / Plateaux à œufs</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+À propos de nous
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Profil de l'entreprise</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Plantation de bambou</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Usine de fibre de bambou</a>
+<a href="tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Usine de vaisselle écologique</a>
+</div>
+</div>
+</div>
+<a href="sustainability.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Durabilité</a>
+<a href="contact.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <div class="language-selector relative">
+                <button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+                    <div class="w-6 h-6 flex items-center justify-center">
+                        <i class="ri-global-line"></i>
+                    </div>
+                    <span>EN</span>
+                    <div class="w-4 h-4 flex items-center justify-center">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </button>
+                <div class="language-dropdown">
+                    <a href="../index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+                    <a href="../es/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+                    <a href="../zh/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+                </div>
+            </div>
+            <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+                <i class="ri-menu-line text-2xl"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<!-- FAQ Header -->
+<section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-center mb-4">Questions Fréquemment Posées</h1>
+        <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">Trouvez des réponses aux questions courantes concernant nos produits en fibre de bambou, le processus de commande, les pratiques de durabilité et les solutions personnalisées.</p>
+
+        <!-- Search Bar -->
+        <div class="max-w-2xl mx-auto mb-12">
+            <div class="relative">
+                <input type="text" id="faq-search" placeholder="Rechercher des questions..." class="w-full px-5 py-4 bg-gray-50 rounded-lg text-gray-700 border-none shadow-sm">
+                <div class="absolute right-4 top-1/2 transform -translate-y-1/2 w-6 h-6 flex items-center justify-center text-gray-400">
+                    <i class="ri-search-line"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Categories -->
+<section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <!-- Category 1 -->
+            <div class="bg-white rounded-lg shadow-sm p-6 text-center cursor-pointer hover:shadow-md transition-shadow" data-category="product">
+                <div class="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+                    <i class="ri-box-3-line text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Informations sur les Produits</h3>
+                <p class="text-gray-600 text-sm">Découvrez nos matériaux, spécifications et certifications des produits</p>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="bg-white rounded-lg shadow-sm p-6 text-center cursor-pointer hover:shadow-md transition-shadow" data-category="ordering">
+                <div class="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+                    <i class="ri-shopping-cart-line text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Commandes et Expédition</h3>
+                <p class="text-gray-600 text-sm">Informations sur le processus de commande, les quantités minimales et la livraison</p>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="bg-white rounded-lg shadow-sm p-6 text-center cursor-pointer hover:shadow-md transition-shadow" data-category="sustainability">
+                <div class="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+                    <i class="ri-leaf-line text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Durabilité</h3>
+                <p class="text-gray-600 text-sm">Détails sur nos pratiques écologiques et notre impact environnemental</p>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="bg-white rounded-lg shadow-sm p-6 text-center cursor-pointer hover:shadow-md transition-shadow" data-category="custom">
+                <div class="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+                    <i class="ri-tools-line text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Solutions Personnalisées</h3>
+                <p class="text-gray-600 text-sm">Informations sur les options de personnalisation et les exigences spéciales</p>
+            </div>
+        </div>
+        
+        <!-- FAQ Content -->
+<div class="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-6 md:p-8">
+    <!-- Product Information -->
+    <div class="faq-section" id="product-section">
+        <h2 class="text-2xl font-semibold mb-6 flex items-center">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center bg-primary/10 rounded-full">
+                <i class="ri-box-3-line text-primary"></i>
+            </div>
+            Informations sur le Produit
+        </h2>
+
+        <div class="space-y-4">
+            <!-- Question 1 -->
+            <div class="faq-item">
+                <div class="faq-question flex justify-between items-center py-4">
+                    <h3 class="text-lg font-medium pr-8">Quels matériaux sont utilisés dans vos produits en fibre de bambou ?</h3>
+                    <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                        <i class="ri-arrow-down-s-line text-primary"></i>
+                    </div>
+                </div>
+                <div class="faq-answer text-gray-600">
+                    <p>Nos produits en fibre de bambou sont fabriqués à partir de 80 % de fibre de bambou naturel et de 20 % d'agents liants de qualité alimentaire. Le bambou provient de nos propres plantations gérées de manière durable, garantissant une traçabilité et un contrôle qualité complets. Nous n'utilisons pas de plastiques dérivés du pétrole, de mélamine ni de produits chimiques nocifs dans notre processus de production.</p>
+                    <p class="mt-2">Les agents liants que nous utilisons sont sans danger pour les aliments et respectent toutes les normes de sécurité internationales, y compris la FDA, le LFGB et les réglementations de l'UE pour les matériaux en contact avec les aliments.</p>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="faq-item">
+                <div class="faq-question flex justify-between items-center py-4">
+                    <h3 class="text-lg font-medium pr-8">Quelles sont les limitations de température de vos produits ?</h3>
+                    <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                        <i class="ri-arrow-down-s-line text-primary"></i>
+                    </div>
+                </div>
+                <div class="faq-answer text-gray-600">
+                    <p>Nos produits en fibre de bambou sont conçus pour résister à des températures allant de -20°C à +120°C, ce qui les rend adaptés pour :</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1">
+                        <li>Stockage au congélateur (-20°C)</li>
+                        <li>Réfrigération (2-8°C)</li>
+                        <li>Service à température ambiante</li>
+                        <li>Service de nourriture chaude (jusqu'à 100°C)</li>
+                        <li>Chauffage au micro-ondes (jusqu'à 120°C pendant 3 minutes)</li>
+                    </ul>
+                    <p class="mt-2">Veuillez noter que nos produits ne conviennent pas pour une utilisation au four conventionnel ni pour un chauffage au-dessus de 120°C, car cela pourrait affecter leur intégrité structurelle.</p>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="faq-item">
+                <div class="faq-question flex justify-between items-center py-4">
+                    <h3 class="text-lg font-medium pr-8">Quelles certifications vos produits possèdent-ils ?</h3>
+                    <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                        <i class="ri-arrow-down-s-line text-primary"></i>
+                    </div>
+                </div>
+                <div class="faq-answer text-gray-600">
+                    <p>Nos produits en fibre de bambou ont obtenu de nombreuses certifications internationales, y compris :</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1">
+                        <li><strong>Certification Compostable BPI</strong> - Vérifiant que nos produits respectent les normes ASTM D6400 pour la compostabilité</li>
+                        <li><strong>OK Compost Industrial & Home</strong> - Certification européenne pour la compostabilité industrielle et domestique</li>
+                        <li><strong>Approbation de la FDA</strong> - Conformité aux normes de la FDA pour les matériaux en contact avec les aliments</li>
+                        <li><strong>Certification LFGB</strong> - Norme allemande de sécurité alimentaire</li>
+                        <li><strong>ISO 9001</strong> - Certification du système de gestion de la qualité</li>
+                        <li><strong>ISO 14001</strong> - Certification du système de gestion environnementale</li>
+                        <li><strong>Certification FSC</strong> - Certification du Forest Stewardship Council pour notre approvisionnement en bambou</li>
+                        <li><strong>Tests SGS</strong> - Vérification indépendante de la qualité et de la sécurité des produits</li>
+                    </ul>
+                    <p class="mt-2">Nous pouvons fournir des copies de ces certifications sur demande pour votre processus de diligence raisonnable.</p>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="faq-item">
+                <div class="faq-question flex justify-between items-center py-4">
+                    <h3 class="text-lg font-medium pr-8">Vos produits sont-ils compatibles avec le micro-ondes et le lave-vaisselle ?</h3>
+                    <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                        <i class="ri-arrow-down-s-line text-primary"></i>
+                    </div>
+                </div>
+                <div class="faq-answer text-gray-600">
+                    <p><strong>Micro-ondes :</strong> Oui, nos produits sont compatibles avec le micro-ondes pour réchauffer les aliments pendant 3 minutes à la puissance standard. Ils peuvent supporter des températures allant jusqu'à 120°C.</p>
+                    <p class="mt-2"><strong>Lave-vaisselle :</strong> Bien que nos produits puissent supporter un lavage au lave-vaisselle, nous recommandons un lavage à la main pour prolonger la durée de vie du produit. Si vous utilisez un lave-vaisselle, placez les articles sur le panier supérieur et utilisez des détergents écologiques. Notez que l'utilisation répétée du lave-vaisselle peut affecter progressivement l'apparence des produits au fil du temps.</p>
+                    <p class="mt-2">Pour une longévité optimale du produit, nous recommandons un lavage doux à la main avec du savon doux et de l'eau tiède.</p>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="faq-item">
+                <div class="faq-question flex justify-between items-center py-4">
+                    <h3 class="text-lg font-medium pr-8">Combien de temps durent vos produits avec une utilisation régulière ?</h3>
+                    <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                        <i class="ri-arrow-down-s-line text-primary"></i>
+                    </div>
+                </div>
+                <div class="faq-answer text-gray-600">
+                    <p>Nos produits en fibre de bambou sont conçus pour des applications à usage unique ou de réutilisation limitée, en fonction de la ligne de produits spécifique :</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1">
+                        <li><strong>Contenants à emporter à usage unique :</strong> Conçus pour un usage unique mais peuvent être réutilisés plusieurs fois avec les soins appropriés</li>
+                        <li><strong>Vaisselle réutilisable :</strong> Peut être utilisée jusqu'à 50-100 fois avec les soins appropriés et un lavage doux</li>
+                    </ul>
+                    <p class="mt-2">Les facteurs affectant la longévité incluent :</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1">
+                        <li>Méthode de lavage (le lavage à la main prolonge la durée de vie)</li>
+                        <li>Exposition à des températures extrêmes (les températures extrêmes peuvent réduire la durée de vie)</li>
+                        <li>Type d'aliment (les aliments très acides ou gras peuvent affecter le matériau avec le temps)</li>
+                        <li>Conditions de stockage (stockez dans un environnement sec et à température ambiante)</li>
+                    </ul>
+                    <p class="mt-2">Contrairement aux produits en plastique qui persistent pendant des centaines d'années, nos produits commenceront à se décomposer naturellement après une utilisation prolongée, ce qui fait partie de leur conception écologique.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+            <!-- Ordering & Shipping -->
+            <div class="faq-section hidden" id="ordering-section">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center">
+                    <div class="w-8 h-8 mr-3 flex items-center justify-center bg-primary/10 rounded-full">
+                        <i class="ri-shopping-cart-line text-primary"></i>
+                    </div>
+                    Commandes et Expéditions
+                </h2>
+
+                <div class="space-y-4">
+                    <!-- Question 1 -->
+                    <div class="faq-item">
+                        <div class="faq-question flex justify-between items-center py-4">
+                            <h3 class="text-lg font-medium pr-8">Quelle est votre quantité minimale de commande (MOQ) ?</h3>
+                            <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                                <i class="ri-arrow-down-s-line text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer text-gray-600">
+                            <p>Nos quantités minimales de commande varient en fonction du type de produit :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>Produits standards :</strong> 1 chargement complet de conteneur (FCL), soit environ 20 000 à 50 000 pièces selon la taille du produit</li>
+                                <li><strong>Commandes d'échantillons :</strong> Nous proposons des packs d'échantillons contenant 50 à 100 pièces de produits sélectionnés à des fins d'évaluation</li>
+                                <li><strong>Produits personnalisés :</strong> MOQ à partir de 50 000 pièces pour des designs ou des marques personnalisées</li>
+                            </ul>
+                            <p class="mt-2">Pour les distributeurs et les clients à gros volumes, nous proposons des arrangements flexibles pour la MOQ. Veuillez contacter notre équipe commerciale pour des détails spécifiques en fonction de vos besoins.</p>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="faq-item">
+                        <div class="faq-question flex justify-between items-center py-4">
+                            <h3 class="text-lg font-medium pr-8">Quels sont vos délais d'expédition et de livraison ?</h3>
+                            <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                                <i class="ri-arrow-down-s-line text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer text-gray-600">
+                            <p>Nos délais de production et d'expédition standards sont les suivants :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>Produits standards :</strong> 25-30 jours de production + délai d'expédition</li>
+                                <li><strong>Produits personnalisés :</strong> 45-60 jours de production + délai d'expédition</li>
+                                <li><strong>Commandes d'échantillons :</strong> 7-10 jours + expédition express (généralement 3-5 jours)</li>
+                            </ul>
+                            <p class="mt-2">Les délais de livraison varient selon la destination :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>Asie-Pacifique : 7-14 jours</li>
+                                <li>Europe : 25-35 jours</li>
+                                <li>Amérique du Nord : 30-40 jours</li>
+                                <li>Moyen-Orient : 20-30 jours</li>
+                                <li>Afrique : 30-45 jours</li>
+                                <li>Amérique du Sud : 35-45 jours</li>
+                            </ul>
+                            <p class="mt-2">Pour les commandes urgentes, nous proposons des options de production accélérée et de fret aérien moyennant un coût supplémentaire. Veuillez discuter de vos exigences spécifiques avec notre équipe commerciale.</p>
+                        </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="faq-item">
+                        <div class="faq-question flex justify-between items-center py-4">
+                            <h3 class="text-lg font-medium pr-8">Quels sont vos termes de paiement ?</h3>
+                            <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                                <i class="ri-arrow-down-s-line text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer text-gray-600">
+                            <p>Nos conditions de paiement standard sont les suivantes :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>Clients nouveaux :</strong> 50 % d'acompte à la confirmation de la commande, solde de 50 % avant l'expédition</li>
+                                <li><strong>Clients établis :</strong> 30 % d'acompte à la confirmation de la commande, solde de 70 % avant l'expédition</li>
+                                <li><strong>Partenaires à long terme :</strong> Conditions de paiement personnalisées disponibles après établissement d'une relation commerciale</li>
+                            </ul>
+                            <p class="mt-2">Nous acceptons les paiements via :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>T/T (Virement télégraphique)</li>
+                                <li>L/C (Lettre de crédit) pour les commandes supérieures à 50 000 $</li>
+                                <li>Western Union pour les commandes d'échantillons</li>
+                            </ul>
+                            <p class="mt-2">Tous les prix sont indiqués en USD ou EUR. Pour d'autres devises, le taux de change au jour du paiement s'appliquera.</p>
+                        </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="faq-item">
+                        <div class="faq-question flex justify-between items-center py-4">
+                            <h3 class="text-lg font-medium pr-8">Proposez-vous une expédition internationale ?</h3>
+                            <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                                <i class="ri-arrow-down-s-line text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer text-gray-600">
+                            <p>Oui, nous expédions dans plus de 90 pays à travers le monde. Nous avons une vaste expérience en logistique internationale et en procédures douanières.</p>
+                            <p class="mt-2">Nos options d'expédition incluent :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>Fret maritime :</strong> Le plus économique pour les commandes en gros (FCL ou LCL)</li>
+                                <li><strong>Fret aérien :</strong> Disponible pour les commandes urgentes ou les expéditions plus petites</li>
+                                <li><strong>Messagerie express :</strong> Utilisé principalement pour les échantillons et les petites commandes</li>
+                            </ul>
+                            <p class="mt-2">Nous pouvons expédier sous divers Incoterms, y compris :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>FOB (Free On Board)</li>
+                                <li>CIF (Coût, Assurance et Fret)</li>
+                                <li>DDP (Livré droits payés) pour certaines destinations</li>
+                            </ul>
+                            <p class="mt-2">Notre équipe logistique fournira des conseils sur la méthode d'expédition la plus adaptée en fonction de votre localisation, de la taille de votre commande et de vos exigences en termes de délais.</p>
+                        </div>
+                    </div>
+
+                    <!-- Question 5 -->
+                    <div class="faq-item">
+                        <div class="faq-question flex justify-between items-center py-4">
+                            <h3 class="text-lg font-medium pr-8">Comment puis-je suivre ma commande ?</h3>
+                            <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                                <i class="ri-arrow-down-s-line text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer text-gray-600">
+                            <p>Nous fournissons un suivi complet des commandes par plusieurs canaux :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>Mises à jour de production :</strong> Mises à jour régulières par e-mail sur les étapes de production</li>
+                                <li><strong>Suivi des expéditions :</strong> Une fois expédiée, vous recevrez les informations de suivi par e-mail</li>
+                                <li><strong>Portail client :</strong> Les clients commerciaux peuvent accéder à notre portail en ligne pour voir l'état de leur commande en temps réel</li>
+                                <li><strong>Gestionnaire de compte dédié :</strong> Assigné à chaque commande pour des mises à jour personnalisées et de l'assistance</li>
+                            </ul>
+                            <p class="mt-2">Pour les expéditions par fret maritime, nous fournissons :</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>Numéro de connaissement</li>
+                                <li>Nom du navire et numéro de voyage</li>
+                                <li>Dates estimées de départ et d'arrivée</li>
+                                <li>Liens vers les systèmes de suivi des compagnies maritimes</li>
+                            </ul>
+                            <p class="mt-2">Pour toute question concernant le suivi, veuillez contacter votre gestionnaire de compte ou envoyer un e-mail à <span class="text-primary">orders@bamboolution.com</span> avec votre numéro de référence de commande.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sustainability -->
+<div class="faq-section hidden" id="sustainability-section">
+    <h2 class="text-2xl font-semibold mb-6 flex items-center">
+        <div class="w-8 h-8 mr-3 flex items-center justify-center bg-primary/10 rounded-full">
+            <i class="ri-leaf-line text-primary"></i>
+        </div>
+        Durabilité
+    </h2>
+
+    <div class="space-y-4">
+        <!-- Question 1 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Comment biodégradables sont vos produits ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Nos produits en fibre de bambou sont entièrement biodégradables et compostables, avec les délais de décomposition suivants :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li><strong>Compostage industriel :</strong> 90 jours (certifié selon la norme EN 13432)</li>
+                    <li><strong>Compostage à domicile :</strong> 180 jours (certifié selon la norme OK Compost Home)</li>
+                    <li><strong>Environnement naturel :</strong> 1-2 ans (varie en fonction des conditions environnementales)</li>
+                </ul>
+                <p class="mt-2">Cela contraste fortement avec les produits plastiques conventionnels, qui peuvent prendre plus de 500 ans pour se décomposer. Nos produits se décomposent en dioxyde de carbone, en eau et en biomasse sans laisser de microplastiques nuisibles ni de résidus toxiques.</p>
+                <p class="mt-2">Le processus de biodégradation est influencé par des facteurs tels que la température, l'humidité, l'activité microbienne et l'exposition aux éléments. Pour des résultats optimaux en compostage, nous recommandons les installations de compostage industriel lorsque cela est disponible.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Comment le bambou se compare-t-il à d'autres matériaux d'un point de vue environnemental ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Le bambou offre des avantages environnementaux importants par rapport à d'autres matériaux utilisés dans l'emballage alimentaire :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Comparé au plastique :</strong> Le bambou est renouvelable, biodégradable, produit 35% plus d'oxygène et absorbe 40% plus de dioxyde de carbone que les masses d'arbres équivalentes. Contrairement au plastique, il ne libère pas de microplastiques ni ne persiste dans l'environnement pendant des siècles.</li>
+                    <li><strong>Comparé au papier/carton :</strong> Le bambou pousse 20 à 30 fois plus vite que les arbres, ne nécessite pas de replantation après la récolte, utilise moins d'eau et n'a pas besoin de pesticides ni de fertilisants. Nos produits en fibre de bambou sont également plus durables et résistants à l'eau que les alternatives en papier.</li>
+                    <li><strong>Comparé au bagasse (canne à sucre) :</strong> Bien que les deux soient des sous-produits agricoles, le bambou a un rendement plus élevé par acre, nécessite moins de transformation et possède des propriétés structurelles supérieures permettant de créer des produits plus fins et plus résistants.</li>
+                    <li><strong>Comparé au PLA (bioplastique à base de maïs) :</strong> Le bambou nécessite moins d'intrants agricoles, ne concurrence pas les cultures alimentaires et se biodégrade de manière plus fiable dans diverses conditions sans nécessiter d'installations de compostage industriel spécialisées.</li>
+                </ul>
+                <p class="mt-2">Nos évaluations du cycle de vie montrent que les produits en fibre de bambou ont une empreinte carbone de 70-90% inférieure à celle des produits plastiques équivalents en tenant compte de la production, du transport et des considérations en fin de vie.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Comment vos produits doivent-ils être éliminés ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Pour un impact environnemental optimal, nous recommandons les méthodes d'élimination suivantes, par ordre de préférence :</p>
+                <ol class="list-decimal pl-5 mt-2 space-y-2">
+                    <li><strong>Compostage industriel :</strong> La méthode de décomposition la plus rapide. De nombreuses municipalités offrent désormais des services commerciaux de compostage.</li>
+                    <li><strong>Compostage à domicile :</strong> Nos produits sont certifiés pour le compostage à domicile. Il suffit de les ajouter à votre bac ou tas de compost.</li>
+                    <li><strong>Collecte de déchets organiques :</strong> Dans les régions où la collecte des déchets organiques est disponible, nos produits peuvent généralement être inclus (consultez les directives locales).</li>
+                    <li><strong>Déchets généraux :</strong> Si les options de compostage ne sont pas disponibles, nos produits se biodégraderont toujours plus rapidement que les alternatives conventionnelles dans les décharges, bien que le processus soit plus lent.</li>
+                </ol>
+                <p class="mt-2">Notes importantes sur l'élimination :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>Retirez les autocollants ou étiquettes non compostables avant de composter</li>
+                    <li>Il n'est pas nécessaire d'enlever les résidus alimentaires avant de composter</li>
+                    <li>Coupez ou cassez les articles plus gros en morceaux plus petits pour accélérer le processus de compostage</li>
+                    <li>Nos produits NE doivent PAS être placés dans les bacs de recyclage pour plastique, papier ou verre</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Quelles pratiques durables employez-vous dans votre fabrication ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>La durabilité est au cœur de toute notre opération, de l'approvisionnement en matières premières à la fabrication :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Énergie renouvelable :</strong> Nos installations de production utilisent 60% d'énergie solaire, avec des plans pour atteindre 80% d'ici 2026.</li>
+                    <li><strong>Conservation de l'eau :</strong> Système de recyclage de l'eau en circuit fermé qui réutilise 90% de l'eau de processus. Notre transformation du bambou utilise 35% moins d'eau que la fabrication traditionnelle de pâte.</li>
+                    <li><strong>Fabrication sans déchets :</strong> Tous les sous-produits du bambou sont utilisés – fibre pour les produits, feuilles pour le compost, et biomasse résiduelle pour la production d'énergie.</li>
+                    <li><strong>Réduction des produits chimiques :</strong> Notre technologie de traitement brevetée utilise 70% moins de produits chimiques que les méthodes traditionnelles de fabrication de pâte. Tous les produits chimiques utilisés sont non toxiques et sûrs pour les aliments.</li>
+                    <li><strong>Programme de compensation du carbone :</strong> Nous maintenons 2 000 hectares de forêt de bambou qui séquestrent plus de carbone que notre fabrication n'en émet, ce qui nous rend négatifs en carbone.</li>
+                    <li><strong>Travail local :</strong> 85% de nos employés viennent de communautés situées à moins de 30 km de nos installations, réduisant les émissions liées aux déplacements et soutenant les économies locales.</li>
+                    <li><strong>Emballage durable :</strong> Tous les matériaux d'expédition sont fabriqués à partir de matériaux recyclés et biodégradables, avec des emballages sans plastique tout au long de notre chaîne d'approvisionnement.</li>
+                </ul>
+                <p class="mt-2">Nous sommes certifiés ISO 14001 pour la gestion environnementale et publions un rapport annuel sur la durabilité détaillant notre impact environnemental et les initiatives d'amélioration continue.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Offrez-vous des informations sur l'empreinte carbone de vos produits ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Oui, nous fournissons des informations détaillées sur l'empreinte carbone de toutes nos gammes de produits. Nos évaluations du carbone suivent le Greenhouse Gas Protocol et sont vérifiées indépendamment par une société de conseil environnemental tierce.</p>
+                <p class="mt-2">Pour chaque catégorie de produit, nous pouvons fournir :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>Empreinte carbone du berceau à la porte (extraction des matières premières jusqu'à la fabrication)</li>
+                    <li>Empreinte carbone du berceau au client (y compris le transport jusqu'à votre emplacement)</li>
+                    <li>Évaluation du cycle de vie complet (y compris les scénarios de fin de vie)</li>
+                    <li>Analyse comparative avec des alternatives plastiques conventionnelles</li>
+                </ul>
+                <p class="mt-2">En moyenne, nos produits en fibre de bambou ont :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>Une empreinte carbone 80-90% plus faible que les produits équivalents en polypropylène (PP)</li>
+                    <li>Une empreinte carbone 70-80% plus faible que les produits équivalents en polystyrène (PS)</li>
+                    <li>Une empreinte carbone 50-60% plus faible que les produits équivalents en PET</li>
+                    <li>Une empreinte carbone 30-40% plus faible que les produits équivalents en PLA (bioplastique à base de maïs)</li>
+                </ul>
+                <p class="mt-2">Pour les clients professionnels, nous pouvons fournir des certificats d'empreinte carbone pour vos commandes spécifiques afin de soutenir vos rapports sur la durabilité et vos initiatives de réduction des émissions de carbone.</p>
+            </div>
+        </div>
+    </div>
+</div>
+            
+           <!-- Custom Solutions -->
+<div class="faq-section hidden" id="custom-section">
+    <h2 class="text-2xl font-semibold mb-6 flex items-center">
+        <div class="w-8 h-8 mr-3 flex items-center justify-center bg-primary/10 rounded-full">
+            <i class="ri-tools-line text-primary"></i>
+        </div>
+        Solutions personnalisées
+    </h2>
+
+    <div class="space-y-4">
+        <!-- Question 1 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Quelles options de personnalisation offrez-vous ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Nous offrons une large gamme d'options de personnalisation pour répondre à vos exigences spécifiques en matière de marque et de fonctionnalité :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Options de branding :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Logo ou texte embossé (option la plus écologique)</li>
+                            <li>Logo ou texte en relief</li>
+                            <li>Impression à l'encre à base d'eau, sûre pour les aliments (jusqu'à 4 couleurs)</li>
+                            <li>Étiquettes et manchons personnalisés</li>
+                        </ul>
+                    </li>
+                    <li><strong>Personnalisation des couleurs :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Beige naturel (standard)</li>
+                            <li>Blanc (processus de blanchiment naturel)</li>
+                            <li>Couleurs personnalisées utilisant des pigments naturels et sûrs pour les aliments</li>
+                        </ul>
+                    </li>
+                    <li><strong>Personnalisation de la taille et de la forme :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Dimensions personnalisées selon vos spécifications</li>
+                            <li>Formes personnalisées avec développement de nouveaux moules</li>
+                            <li>Configurations de compartiments personnalisés</li>
+                        </ul>
+                    </li>
+                    <li><strong>Personnalisation fonctionnelle :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Conceptions de couvercles personnalisés (aérés, scellés, etc.)</li>
+                            <li>Fonctionnalités spéciales (poignées, becs verseurs, etc.)</li>
+                            <li>Propriétés améliorées (résistance accrue à l'eau, etc.)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Personnalisation de l'emballage :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Emballage de détail personnalisé</li>
+                            <li>Quantités et packs de cas personnalisés</li>
+                            <li>Cartons d'expédition personnalisés avec votre branding</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="mt-2">Notre équipe de conception travaille en étroite collaboration avec vous tout au long du processus de personnalisation, depuis le concept initial jusqu'à la production finale.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Quel est le processus pour développer des produits personnalisés ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Notre processus de développement de produits personnalisés suit ces étapes clés :</p>
+                <ol class="list-decimal pl-5 mt-2 space-y-2">
+                    <li><strong>Consultation :</strong> Discussion initiale pour comprendre vos exigences, y compris les spécifications du produit, l'utilisation prévue, les volumes et le calendrier.</li>
+                    <li><strong>Conception du concept :</strong> Notre équipe de conception crée des dessins conceptuels ou des rendus 3D basés sur vos spécifications.</li>
+                    <li><strong>Retour et affinage :</strong> Nous collaborons avec vous pour affiner le design jusqu'à ce qu'il réponde à vos exigences exactes.</li>
+                    <li><strong>Développement de prototypes :</strong> Nous créons des prototypes physiques pour votre évaluation et vos tests.</li>
+                    <li><strong>Tests et validation :</strong> Les prototypes subissent des tests rigoureux pour la fonctionnalité, la durabilité et la conformité aux normes pertinentes.</li>
+                    <li><strong>Approbation finale :</strong> Vous examinez et approuvez le prototype final avant la production.</li>
+                    <li><strong>Outils et installation :</strong> Nous créons des moules de production et mettons en place le processus de fabrication.</li>
+                    <li><strong>Production d'échantillons :</strong> Une petite série de production pour vérifier la qualité et la cohérence.</li>
+                    <li><strong>Production de masse :</strong> Production à grande échelle de votre commande personnalisée.</li>
+                    <li><strong>Contrôle de qualité :</strong> Inspection rigoureuse tout au long de la production pour garantir une qualité constante.</li>
+                    <li><strong>Livraison :</strong> Coordination de l'expédition et de la logistique pour une livraison dans les délais.</li>
+                </ol>
+                <p class="mt-2">Le calendrier typique pour le développement de produits personnalisés est :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>Phase de conception et prototype : 2-4 semaines</li>
+                    <li>Outils et installation : 4-6 semaines</li>
+                    <li>Production : 3-4 semaines</li>
+                </ul>
+                <p class="mt-2">Tout au long du processus, vous aurez un chef de projet dédié comme votre seul point de contact.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Quels sont les coûts associés aux produits personnalisés ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Les coûts des produits personnalisés incluent plusieurs composants :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Frais de conception :</strong> La consultation de base est gratuite. Les travaux de conception complexes peuvent entraîner des frais de conception, qui sont généralement crédités sur les commandes de production.</li>
+                    <li><strong>Coûts des outils :</strong> Frais uniques pour la création de moules personnalisés :
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Modifications simples de produits existants : 1 000 $ à 3 000 $</li>
+                            <li>Nouvelles formes/taille personnalisées : 3 000 $ à 8 000 $</li>
+                            <li>Produits complexes à plusieurs pièces : 8 000 $ à 15 000 $</li>
+                        </ul>
+                    </li>
+                    <li><strong>Coûts des échantillons :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Prototypes imprimés en 3D : 200 $ à 500 $</li>
+                            <li>Prototypes fonctionnels : 500 $ à 1 500 $</li>
+                            <li>Échantillons pré-production : 1 000 $ à 2 000 $</li>
+                        </ul>
+                    </li>
+                    <li><strong>Coûts de production par unité :</strong> Dépendent du volume, de la complexité et des spécifications. Les produits personnalisés coûtent généralement 10 à 30 % de plus que les produits standard.</li>
+                    <li><strong>Exigences minimales de commande :</strong> Les produits personnalisés nécessitent généralement des MOQ plus élevés (généralement 50 000 pièces) pour compenser les coûts de moulage et de mise en place.</li>
+                </ul>
+                <p class="mt-2">Conseils pour économiser sur les coûts :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>Envisagez de modifier des produits existants plutôt que de créer de nouveaux designs</li>
+                    <li>Commandez des quantités plus importantes pour réduire les coûts par unité</li>
+                    <li>Choisissez l'embossage plutôt que le branding imprimé pour un meilleur impact environnemental et des coûts réduits</li>
+                    <li>Engagez-vous à passer des commandes répétées pour amortir les coûts des outils sur plusieurs séries de production</li>
+                </ul>
+                <p class="mt-2">Nous fournissons des devis détaillés et transparents qui décomposent tous les coûts impliqués dans votre projet personnalisé.</p>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Pouvez-vous correspondre à des dimensions spécifiques ou reproduire des produits existants ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Oui, nous pouvons correspondre à des dimensions spécifiques et reproduire des produits existants avec une grande précision :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Précision dimensionnelle :</strong> Notre processus de fabrication peut atteindre des tolérances de ±0,5 mm, nous permettant de correspondre précisément à vos exigences dimensionnelles spécifiques.</li>
+                    <li><strong>Ingénierie inverse :</strong> Nous pouvons reproduire des produits plastiques ou en papier existants dans notre matériau écologique à base de fibres de bambou. Il vous suffit de fournir des échantillons ou des spécifications détaillées des produits que vous souhaitez reproduire.</li>
+                    <li><strong>Épaisseur du matériau :</strong> Nous pouvons produire des produits avec des épaisseurs de paroi allant de 0,8 mm à 5 mm, en fonction des exigences de l'application.</li>
+                    <li><strong>Compatibilité :</strong> Nous pouvons garantir que nos produits sont compatibles avec les systèmes existants, tels que :
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Correspondance des couvercles avec les contenants existants</li>
+                            <li>Adaptation à des équipements d'emballage spécifiques</li>
+                            <li>Emboîtement avec des produits existants</li>
+                            <li>Respect des exigences spécifiques de superposition</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="mt-2">Pour une reproduction la plus précise possible, nous vous recommandons d'envoyer des échantillons physiques des produits que vous souhaitez reproduire. Notre équipe d'ingénieurs les analysera et vous fournira des retours sur la faisabilité, les modifications nécessaires et les améliorations potentielles.</p>
+                <p class="mt-2">Notez que bien que nous puissions reproduire avec précision les dimensions et la fonctionnalité des produits plastiques, les propriétés naturelles des fibres de bambou peuvent nécessiter de légères adaptations de conception pour garantir des performances et une durabilité optimales.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="faq-item">
+            <div class="faq-question flex justify-between items-center py-4">
+                <h3 class="text-lg font-medium pr-8">Proposez-vous des programmes de marque blanche ou de marque privée ?</h3>
+                <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
+                    <i class="ri-arrow-down-s-line text-primary"></i>
+                </div>
+            </div>
+            <div class="faq-answer text-gray-600">
+                <p>Oui, nous proposons des programmes complets de marque blanche et de marque privée pour les distributeurs, les détaillants et les marques :</p>
+                <ul class="list-disc pl-5 mt-2 space-y-2">
+                    <li><strong>Programme de marque blanche :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Nos produits standard avec votre marque</li>
+                            <li>MOQ plus bas (à partir de 20 000 pièces par SKU)</li>
+                            <li>Délai d'exécution plus rapide (4 à 6 semaines)</li>
+                            <li>Emballage personnalisé avec votre marque</li>
+                            <li>Idéal pour les distributeurs et les détaillants qui entrent sur le marché de l'emballage écologique</li>
+                        </ul>
+                    </li>
+                    <li><strong>Programme de marque privée :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Produits conçus sur mesure exclusifs à votre marque</li>
+                            <li>MOQ plus élevés (à partir de 50 000 pièces par SKU)</li>
+                            <li>Personnalisation complète des formes, tailles et fonctionnalités</li>
+                            <li>Options de protection de territoire ou de marché exclusif</li>
+                            <li>Idéal pour les marques établies souhaitant des emballages durables distinctifs</li>
+                        </ul>
+                    </li>
+                    <li><strong>Services de support à la marque :</strong>
+                        <ul class="list-disc pl-5 mt-1 space-y-1">
+                            <li>Matériel marketing et photographie de produits</li>
+                            <li>Documentation de certification pour vos marchés</li>
+                            <li>Métriques de durabilité pour vos rapports ESG</li>
+                            <li>Services de livraison directe à vos clients</li>
+                            <li>Matériel éducatif co-brandé</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="mt-2">Nous proposons également un programme de distributeur avec des prix compétitifs, un soutien marketing et des territoires exclusifs pour les partenaires qualifiés intéressés à représenter notre marque sur des marchés spécifiques.</p>
+                <p class="mt-2">Pour discuter de nos programmes de marque blanche ou de marque privée, veuillez contacter notre équipe de développement commercial à <span class="text-primary">partnerships@bamboolution.com</span>.</p>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 bg-primary/10">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Vous avez encore des questions ?</h2>
+            <p class="text-gray-600 mb-8">Notre équipe est prête à vous aider à trouver la solution d'emballage durable parfaite pour votre entreprise.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-primary hover:bg-primary/90 text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors">Contactez notre équipe</button>
+                <button class="bg-white hover:bg-gray-50 text-primary border border-primary px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors">Demander un échantillon</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="../index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolution</a>
+<p class="text-gray-400 mb-6">Fabricant leader de vaisselle en fibre de bambou écologique et de solutions d'emballage pour les entreprises du monde entier.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Liens rapides</h3>
+<ul class="space-y-3">
+<li><a href="../index.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">Accueil</a></li>
+<li><a href="category.html" class="text-gray-400 hover:text-white transition-colors">Produits</a></li>
+<li><a href="company-profile.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">À propos de nous</a></li>
+<li><a href="sustainability.html" class="text-gray-400 hover:text-white transition-colors">Durabilité</a></li>
+<li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Contactez-nous</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400">123 Eco Industrial Park, Green City, 200120, Chine</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400">+86 21 5555 8888</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400">info@bamboolution.com</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-time-line"></i>
+</div>
+<span class="ml-3 text-gray-400">Lun-Ven : 9h00 - 18h00</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Restez informé</h3>
+<p class="text-gray-400 mb-4">Abonnez-vous à notre newsletter pour les dernières mises à jour des produits et des nouvelles sur la durabilité.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="Votre adresse e-mail" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors">
+S'abonner
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400">J'accepte de recevoir des communications marketing de Bamboolution.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0">
+© 2025 Bamboolution. Tous droits réservés.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Conditions d'utilisation</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Politique de confidentialité</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors">Politique de cookies</a>
+</div>
+</div>
+</div>
+</footer>
+
+
+<!-- Back to top button -->
+<button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 rounded-full bg-primary text-white shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300">
+    <i class="ri-arrow-up-line text-xl"></i>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // FAQ accordion functionality
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            const icon = this.querySelector('.faq-icon');
+            
+            // Toggle active class
+            answer.classList.toggle('active');
+            icon.classList.toggle('active');
+            
+            // Close other open FAQs
+            const otherAnswers = document.querySelectorAll('.faq-answer.active');
+            const otherIcons = document.querySelectorAll('.faq-icon.active');
+            
+            otherAnswers.forEach(otherAnswer => {
+                if (otherAnswer !== answer) {
+                    otherAnswer.classList.remove('active');
+                }
+            });
+            
+            otherIcons.forEach(otherIcon => {
+                if (otherIcon !== icon) {
+                    otherIcon.classList.remove('active');
+                }
+            });
+        });
+    });
+    
+    // Category tabs functionality
+    const categoryButtons = document.querySelectorAll('[data-category]');
+    const faqSections = document.querySelectorAll('.faq-section');
+    
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const category = this.getAttribute('data-category');
+            
+            // Hide all sections
+            faqSections.forEach(section => {
+                section.classList.add('hidden');
+            });
+            
+            // Show selected section
+            document.getElementById(`${category}-section`).classList.remove('hidden');
+            
+            // Update active state
+            categoryButtons.forEach(btn => {
+                btn.classList.remove('bg-primary/10');
+                btn.querySelector('i').classList.remove('text-white');
+                btn.querySelector('i').classList.add('text-primary');
+            });
+            
+            this.classList.add('bg-primary/10');
+        });
+    });
+    
+    // Search functionality
+    const searchInput = document.getElementById('faq-search');
+    
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        const allQuestions = document.querySelectorAll('.faq-item');
+        
+        if (searchTerm.length < 2) {
+            // Reset visibility if search term is too short
+            allQuestions.forEach(item => {
+                item.style.display = 'block';
+            });
+            return;
+        }
+        
+        // Show all sections when searching
+        faqSections.forEach(section => {
+            section.classList.remove('hidden');
+        });
+        
+        // Filter questions
+        allQuestions.forEach(item => {
+            const question = item.querySelector('.faq-question h3').textContent.toLowerCase();
+            const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+            
+            if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                item.style.display = 'block';
+                // Expand matching items
+                item.querySelector('.faq-answer').classList.add('active');
+                item.querySelector('.faq-icon').classList.add('active');
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+    
+    // Back to top button
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.add('opacity-0', 'invisible');
+            backToTopButton.classList.remove('opacity-100', 'visible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    
+    // Custom checkbox functionality
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+            if (this.checked) {
+                checkmark.classList.remove('hidden');
+            } else {
+                checkmark.classList.add('hidden');
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
