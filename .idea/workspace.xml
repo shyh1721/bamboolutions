@@ -5,7 +5,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/bakery/bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bakery/bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bowls/bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/clamshell/clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/clamshell/clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/e12.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/e15.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/e30.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/plates/plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/sushi/sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/a01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/et7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/t24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/trays/trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/tableware-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/bakery/bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/bakery/bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/bowls/bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/clamshell/clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/clamshell/clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/c4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/c4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/e12.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/e15.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/cup&amp;egg/e30.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/plates/plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/sushi/sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/a01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/et7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/t24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/product/trays/trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/tableware-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/bakery/bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/bakery/bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/bowls/bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/clamshell/clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/clamshell/clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/c4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/c4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/e12.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/e15.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/cup&amp;egg/e30.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/plates/plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/sushi/sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/a01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/et7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/t24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/tableware-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/bakery/bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/bakery/bakery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/bowls/bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/clamshell/clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/clamshell/clamshell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/e12.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/e15.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/cup&amp;egg/e30.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/plates/plates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/sushi/sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/a01.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/a01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/et7.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/et7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t09.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t13.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t18.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t21.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t22.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t23.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/t24.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/t24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/tableware-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/tableware-facility.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +187,23 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/fr",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/zh/product/trays",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.deepseek.my.translate.settings.AppSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\zh\product\trays" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\fr" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es\product" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es" />
@@ -83,11 +213,14 @@
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets\cup&amp;egg" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.trays.html">
     <configuration name="company-profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/en/company-profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="trays.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/zh/product/trays/trays.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -115,6 +248,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.trays.html" />
         <item itemvalue="JavaScript Debug.company-profile.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -138,7 +272,9 @@
       <workItem from="1745400784431" duration="16019000" />
       <workItem from="1745478528522" duration="35177000" />
       <workItem from="1745581442593" duration="1274000" />
-      <workItem from="1745582777643" duration="11709000" />
+      <workItem from="1745582777643" duration="11729000" />
+      <workItem from="1745629908579" duration="4904000" />
+      <workItem from="1745635041770" duration="3419000" />
     </task>
     <servers />
   </component>
