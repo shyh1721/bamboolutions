@@ -176,6 +176,7 @@
     "JavaScript Debug.company-profile.html.executor": "Run",
     "JavaScript Debug.contact.html.executor": "Run",
     "JavaScript Debug.faq.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.plantation.html.executor": "Run",
     "JavaScript Debug.processing-plant.html.executor": "Run",
@@ -213,8 +214,11 @@
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets\cup&amp;egg" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.trays.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="company-profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/en/company-profile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/fr/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/index.html" useBuiltInWebServerPort="true">
@@ -248,9 +252,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.trays.html" />
         <item itemvalue="JavaScript Debug.company-profile.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +279,7 @@
       <workItem from="1745581442593" duration="1274000" />
       <workItem from="1745582777643" duration="11729000" />
       <workItem from="1745629908579" duration="4904000" />
-      <workItem from="1745635041770" duration="3419000" />
+      <workItem from="1745635041770" duration="4960000" />
     </task>
     <servers />
   </component>
