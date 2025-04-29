@@ -5,6 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jp/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/company-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/plantation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/processing-plant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/bakery/bakery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/bowls/bowls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/clamshell/clamshell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/plates/plates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/sushi/sushi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/a01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/et7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/t24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/product/trays/trays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/sustainability.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jp/tableware-facility.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +84,7 @@
     "JavaScript Debug.faq.html.executor": "Run",
     "JavaScript Debug.index.html (1).executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.modified-bamboolutions (2).html.executor": "Run",
     "JavaScript Debug.plantation.html.executor": "Run",
     "JavaScript Debug.processing-plant.html.executor": "Run",
     "JavaScript Debug.sushi.html.executor": "Run",
@@ -63,7 +96,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/zh/product/trays",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/jp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,11 +108,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\jp" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\en" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\zh" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\zh\product\trays" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\fr" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es\product" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\es" />
@@ -160,6 +193,7 @@
       <workItem from="1745629908579" duration="4904000" />
       <workItem from="1745635041770" duration="6100000" />
       <workItem from="1745651640226" duration="8952000" />
+      <workItem from="1745825086359" duration="14547000" />
     </task>
     <servers />
   </component>
