@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bamboo Fiber Processing Plant - Bamboolutions</title>
+<title>Our Bamboo Plantation - Bamboolutions</title>
 <script src="https://cdn.tailwindcss.com/3.4.16"></script>
 <script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <style>
 :where([class^="ri-"])::before { content: "\f3c2"; }
 body {
@@ -32,6 +31,20 @@ transition: width 0.3s ease;
 }
 .nav-link:hover::after, .nav-link.active::after {
 width: 100%;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
 }
 .stat-card {
 transition: all 0.3s ease;
@@ -99,20 +112,6 @@ border-right: 1.5px solid #9CA3AF;
 transform: rotate(45deg);
 margin: 0 10px;
 }
-.language-dropdown {
-display: none;
-position: absolute;
-top: 100%;
-right: 0;
-background-color: white;
-border-radius: 8px;
-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-z-index: 50;
-min-width: 160px;
-}
-.language-selector:hover .language-dropdown {
-display: block;
-}
 </style>
 </head>
 <body class="overflow-x-hidden">
@@ -151,8 +150,8 @@ display: block;
 <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
 <div class="py-2">
 <a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">会社概要</a>
-<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">竹農園</a>
-<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-primary font-medium bg-gray-50">竹繊維プラント</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-primary font-medium bg-gray-50">竹農園</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">竹繊維プラント</a>
 <a href="tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">エコ食器工場</a>
 </div>
 </div>
@@ -177,7 +176,7 @@ display: block;
 <a href="../es/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
 <a href="../ae/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
 <a href="../de/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
-<a href="../jp/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+<a href="/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
 <a href="../zh/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
 
 </div>
@@ -188,210 +187,148 @@ display: block;
 </div>
 </div>
 </header>
-<!-- Main Content -->
+<!-- Main Content Area -->
 <main class="flex-1">
 <!-- Hero Section -->
 <section class="relative h-[500px] overflow-hidden">
-<div style="background-image: url('https://readdy.ai/api/search-image?query=modern%2520industrial%2520bamboo%2520fiber%2520processing%2520plant%2520aerial%2520view%2520with%2520large%2520factory%2520buildings%2520surrounded%2520by%2520green%2520landscape%252C%2520sustainable%2520manufacturing%2520facility%2520with%2520solar%2520panels%2520on%2520rooftops%252C%2520clean%2520industrial%2520design%252C%2520morning%2520light%2520creating%2520soft%2520shadows%252C%2520professional%2520drone%2520photography%2520with%2520clear%2520blue%2520sky&width=1920&height=1000&seq=20&orientation=landscape'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
+<div style="background-image: url('../assets/plantation-main.webp'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
 <div class="absolute inset-0 bg-black/40"></div>
 <div class="container mx-auto px-6 h-full flex items-center relative z-10">
 <div class="max-w-3xl">
-<h1 class="text-4xl md:text-5xl font-bold text-white mb-4">竹繊維加工工場</h1>
-<p class="text-xl text-white/90 mb-6">広東省汕尾市に所在 - 2012年より稼働</p>
-<div class="grid grid-cols-2 gap-4 mt-8">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4">私たちの私有竹プランテーション</h1>
+<p class="text-xl text-white/90 mb-6">持続可能に管理された竹林が、当社の垂直統合型サプライチェーンを支えています</p>
+<div class="inline-block bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg">
+<span class="text-white font-medium text-lg">20 km² の持続可能な竹林</span>
 </div>
 </div>
 </div>
 </div>
 </section>
-<!-- Introduction Section -->
-<section class="py-16 bg-white">
-<div class="container mx-auto px-6">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-<div>
-<h2 class="text-3xl font-bold text-gray-800 mb-6">サプライチェーンの中核</h2>
-<p class="text-gray-600 mb-4">汕尾の竹繊維加工工場は、当社の垂直統合型サプライチェーンの中核を担っています。2012年以来、高品質で環境に優しい竹繊維を持続可能な包装ソリューションのために生産してきました。</p>
-<p class="text-gray-600 mb-4">20平方キロメートルの自社所有の竹林により、安定した持続可能な原材料供給を実現し、生産工程全体において品質と環境基準を完全に管理しています。</p>
-<p class="text-gray-600 mb-6">当社の生産工程は固形廃棄物ゼロを目指して設計されています。すべての副産物は液体肥料として再利用され、資源の無駄と環境への影響を大幅に削減しています。このクローズドループシステムは、根本からの持続可能でグリーンな製造への取り組みを示しています。</p>
-<div class="inline-flex items-center mt-2">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
-<div class="w-6 h-6 flex items-center justify-center text-primary">
-<i class="ri-recycle-line text-xl"></i>
-</div>
-</div>
-<p class="text-gray-700 font-medium">廃棄物ゼロの製造プロセス</p>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-6">
-<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<div class="w-6 h-6 flex items-center justify-center text-primary">
-<i class="ri-plant-line text-xl"></i>
-</div>
-</div>
-<div class="text-3xl font-bold text-gray-800 mb-2">180,000</div>
-<p class="text-gray-600">年間繊維生産量（トン）</p>
-</div>
-<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<div class="w-6 h-6 flex items-center justify-center text-primary">
-<i class="ri-team-line text-xl"></i>
-</div>
-</div>
-<div class="text-3xl font-bold text-gray-800 mb-2">100+</div>
-<p class="text-gray-600">熟練した従業員数</p>
-</div>
-<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<div class="w-6 h-6 flex items-center justify-center text-primary">
-<i class="ri-building-line text-xl"></i>
-</div>
-</div>
-<div class="text-3xl font-bold text-gray-800 mb-2">40,000 m²</div>
-<p class="text-gray-600">工場の面積</p>
-</div>
-<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<div class="w-6 h-6 flex items-center justify-center text-primary">
-<i class="ri-award-line text-xl"></i>
-</div>
-</div>
-<div class="text-3xl font-bold text-gray-800 mb-2">20+</div>
-<p class="text-gray-600">加工技術に関する特許数</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Flash-Drying System Section -->
-<section class="py-16 bg-gray-50">
-<div class="container mx-auto px-6">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-<div class="order-2 lg:order-1">
-<h2 class="text-3xl font-bold text-gray-800 mb-6">先進的なフラッシュ乾燥システム</h2>
-<p class="text-gray-600 mb-4">当社独自のフラッシュ乾燥技術は、竹繊維加工における重要な進歩を表しています。このシステムにより、竹繊維をその構造と自然特性を保ちながら迅速に乾燥させることが可能です。</p>
-<p class="text-gray-600 mb-4">システムは最適な効率で稼働し、従来の乾燥方法と比べてエネルギー消費を35%削減しながら生産能力を向上させます。この革新は複数の特許で保護されており、当社の持続可能な製造への取り組みを象徴しています。</p>
-<ul class="mt-6 space-y-3">
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
-</div>
-<span class="text-gray-700">35%の消費削減による省エネルギー運用</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
-</div>
-<span class="text-gray-700">繊維の品質と構造を維持</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
-</div>
-<span class="text-gray-700">当社専用の特許技術</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
-</div>
-<span class="text-gray-700">原材料500トン/日の処理能力</span>
-</li>
-</ul>
-</div>
-<div class="order-1 lg:order-2">
-<div class="rounded-lg overflow-hidden shadow-lg">
-<img src="../assets/flash-drying-system.webp" alt="Flash-Drying System" class="w-full h-full object-cover object-top">
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Video Showcase Section -->
-<section class="py-16 bg-white">
+<!-- Video Feature Section -->
+<section class="py-20 bg-white">
 <div class="container mx-auto px-6">
 <div class="max-w-4xl mx-auto">
-<h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">稼働中の加工工場</h2>
+<h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">竹林を巡る旅</h2>
 <div class="video-container shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=bamboo%2520fiber%2520processing%2520plant%2520interior%2520with%2520modern%2520machinery%2520in%2520operation%252C%2520workers%2520in%2520clean%2520uniforms%2520and%2520safety%2520equipment%2520monitoring%2520production%2520line%252C%2520conveyor%2520belts%2520moving%2520processed%2520bamboo%2520fiber%252C%2520bright%2520industrial%2520lighting%252C%2520clean%2520facility%252C%2520professional%2520industrial%2520videography%2520still%2520frame&width=1280&height=720&seq=22&orientation=landscape" alt="Processing Plant Video" class="w-full h-full object-cover object-top">
+<img src="https://readdy.ai/api/search-image?query=cinematic%2520view%2520of%2520bamboo%2520forest%2520with%2520workers%2520carefully%2520harvesting%2520mature%2520bamboo%2520stalks%2520using%2520traditional%2520methods%252C%2520morning%2520light%2520filtering%2520through%2520dense%2520bamboo%2520canopy%2520creating%2520beautiful%2520light%2520rays%252C%2520sustainable%2520forestry%2520practices%2520in%2520action%252C%2520mist%2520rising%2520from%2520forest%2520floor%252C%2520professional%2520videography%2520still%2520frame&width=1280&height=720&seq=11&orientation=landscape" alt="Bamboo Forest Video" class="w-full h-full object-cover object-top">
 <div class="play-button">
 <i class="ri-play-fill"></i>
 </div>
 </div>
-<p class="text-gray-600 mt-6 text-center">最先端の竹繊維加工施設の稼働の様子をご覧ください。品質、効率性、持続可能性への当社の取り組みを紹介します。</p>
+<p class="text-gray-600 mt-4 text-center">私有竹林の静けさと持続可能性を体感してください</p>
 </div>
 </div>
 </section>
-<!-- Processing Equipment Showcase -->
+<!-- Plantation Overview Section -->
 <section class="py-16 bg-gray-50">
 <div class="container mx-auto px-6">
-<h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">先進的な加工機器</h2>
-<!-- First Equipment Block -->
-<div class="flex flex-col lg:flex-row items-center gap-12 mb-20">
-<div class="lg:w-1/2">
-<h3 class="text-2xl font-semibold text-gray-800 mb-4">繊維抽出システム</h3>
-<p class="text-gray-600 mb-4">当社独自設計の繊維抽出システムは、竹繊維の自然な特性を維持しながら効率的に分離します。この技術により、エネルギー消費を最小限に抑えつつ、優れた繊維品質を実現しています。</p>
-<ul class="mt-6 space-y-3">
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-3xl font-bold text-gray-800 mb-6">プランテーションの概要</h2>
+<p class="text-gray-600 mb-4">私たちの原材料は、湖南省と広東省にある私有の竹プランテーションから直接調達されており、総面積は20平方キロメートルに及びます。これらの豊かな竹林が、私たちの持続可能なビジネスモデルの基盤です。</p>
+<p class="text-gray-600 mb-4">原竹から製品完成まで完全に自給自足の垂直統合型サプライチェーンにより、生産プロセス全体で品質・持続可能性・効率を完全に管理しています。</p>
+<p class="text-gray-600 mb-6">私たちの竹プランテーションは、生育に最適な地域に戦略的に配置されており、最高品質の原材料を確保しながら地域経済を支えています。</p>
+<div class="flex items-center space-x-4 mt-8">
+<div class="bg-white p-3 rounded-lg shadow-sm">
+<img src="../assets/FSC.webp" alt="FSC Certification" class="h-16 w-auto">
 </div>
-<span class="text-gray-700">1時間あたり25トンの処理能力</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
+<div class="bg-white p-3 rounded-lg shadow-sm">
+<img src="../assets/CFCC.webp" alt="CFCC Certification" class="h-16 w-auto">
 </div>
-<span class="text-gray-700">自動品質管理モニタリング</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
+<div>
+<p class="text-gray-700 font-medium">FSC®（FSC-C110780）およびCFCCの二重認証林</p>
+<p class="text-gray-600 text-sm">責任ある森林管理を保証</p>
 </div>
-<span class="text-gray-700">水再利用システムにより80%の削減</span>
-</li>
-</ul>
 </div>
-<div class="lg:w-1/2">
+</div>
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=advanced%2520industrial%2520bamboo%2520fiber%2520extraction%2520machinery%2520with%2520large%2520stainless%2520steel%2520components%252C%2520conveyor%2520systems%2520moving%2520raw%2520bamboo%2520material%252C%2520control%2520panels%2520with%2520digital%2520displays%252C%2520clean%2520factory%2520environment%252C%2520workers%2520in%2520safety%2520gear%2520monitoring%2520equipment%252C%2520professional%2520industrial%2520photography&width=800&height=600&seq=23&orientation=landscape" alt="Fiber Extraction System" class="w-full h-full object-cover object-top">
+<img src="../assets/plantation-1.webp" alt="Bamboo Harvesting" class="w-full h-full object-cover object-top">
 </div>
 </div>
 </div>
-<!-- Second Equipment Block -->
-<div class="flex flex-col lg:flex-row-reverse items-center gap-12">
-<div class="lg:w-1/2">
-<h3 class="text-2xl font-semibold text-gray-800 mb-4">精製・加工ライン</h3>
-<p class="text-gray-600 mb-4">高度な精製ラインにより、原料の竹繊維を高品質な素材へと変換します。複数の工程での洗浄・精製・品質検査により、安定した製品品質を確保します。</p>
-<ul class="mt-6 space-y-3">
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
+</section>
+<!-- Impact Statistics Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">地域社会への影響</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+<div class="stat-card bg-gray-50 rounded-lg p-8 flex items-center">
+<div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+<div class="w-10 h-10 flex items-center justify-center text-primary">
+<i class="ri-team-line text-3xl"></i>
 </div>
-<span class="text-gray-700">6段階の精製プロセスによる最適な品質</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
 </div>
-<span class="text-gray-700">AI搭載の品質検査システムを統合</span>
-</li>
-<li class="flex items-start">
-<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
-<i class="ri-check-line"></i>
+<div>
+<div class="text-4xl font-bold text-gray-800 mb-2">10,000+</div>
+<p class="text-gray-600">竹プランテーションおよび加工施設によって創出された地方の雇用機会</p>
 </div>
-<span class="text-gray-700">省エネモーターにより電力使用を40%削減</span>
-</li>
-</ul>
 </div>
-<div class="lg:w-1/2">
-<div class="rounded-lg overflow-hidden shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=modern%2520bamboo%2520fiber%2520refinement%2520production%2520line%2520with%2520sophisticated%2520machinery%252C%2520conveyor%2520systems%2520transporting%2520processed%2520fiber%252C%2520quality%2520control%2520stations%2520with%2520technicians%2520in%2520lab%2520coats%252C%2520clean%2520industrial%2520environment%2520with%2520bright%2520lighting%252C%2520professional%2520industrial%2520photography&width=800&height=600&seq=24&orientation=landscape" alt="Refinement and Processing Line" class="w-full h-full object-cover object-top">
+<div class="stat-card bg-gray-50 rounded-lg p-8 flex items-center">
+<div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+<div class="w-10 h-10 flex items-center justify-center text-primary">
+<i class="ri-money-dollar-circle-line text-3xl"></i>
+</div>
+</div>
+<div>
+<div class="text-4xl font-bold text-gray-800 mb-2">$13M</div>
+<p class="text-gray-600">持続可能な竹の栽培を通じて地域社会にもたらされる年間収入</p>
+</div>
+</div>
+</div>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
+<div class="md:col-span-1">
+<img src="https://readdy.ai/api/search-image?query=rural%2520Chinese%2520workers%2520smiling%2520while%2520working%2520in%2520bamboo%2520processing%2520facility%252C%2520diverse%2520group%2520of%2520men%2520and%2520women%2520of%2520various%2520ages%252C%2520clean%2520working%2520environment%252C%2520natural%2520lighting%252C%2520professional%2520documentary%2520photography&width=400&height=500&seq=15&orientation=portrait" alt="Local Workers" class="w-full h-auto rounded-lg shadow-md">
+</div>
+<div class="md:col-span-2">
+<h3 class="text-2xl font-semibold text-gray-800 mb-4">地域社会の支援</h3>
+<p class="text-gray-600 mb-4">当社の統合システムは、竹産業の長期的な持続可能性を強化すると同時に、湖南省と広東省の何千人もの地方労働者に安定した雇用を提供しています。</p>
+<p class="text-gray-600 mb-4">私たちは、公正な賃金、安全な労働環境、そして従業員の職業的成長の機会を優先しています。多くの従業員が何世代にもわたり勤めています。</p>
+<p class="text-gray-600">竹の栽培と加工を中心とした持続可能な経済モデルの構築により、地方コミュニティを活性化し、世界市場向けのエコ製品を生産しています。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Sustainability Statement Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
+<img src="https://readdy.ai/api/search-image?query=serene%2520bamboo%2520forest%2520with%2520sunlight%2520filtering%2520through%2520dense%2520canopy%2520creating%2520magical%2520atmosphere%252C%2520biodiversity%2520evident%2520with%2520various%2520plants%2520growing%2520among%2520bamboo%252C%2520sustainable%2520ecosystem%252C%2520misty%2520morning%2520light%252C%2520no%2520people%252C%2520professional%2520nature%2520photography&width=800&height=600&seq=16&orientation=landscape" alt="Sustainable Bamboo Forest" class="w-full h-full object-cover object-top">
+</div>
+<div class="order-1 md:order-2">
+<h2 class="text-3xl font-bold text-gray-800 mb-6">私たちの持続可能性への取り組み</h2>
+<p class="text-gray-600 mb-4">すべての竹は、FSC®（FSC-C110780）およびCFCCの二重認証林から責任を持って収穫されており、生態系の保全と経済成長のバランスを確保しています。</p>
+<p class="text-gray-600 mb-4">私たちの竹プランテーションは炭素吸収源として機能し、広葉樹林に比べて約35%多くのCO₂を吸収し、気候変動対策に大きく貢献しています。</p>
+<p class="text-gray-600 mb-4">私たちは、竹林の健康と活力を維持する選択的な収穫技術を採用しています。従来の伐採とは異なり、竹は再植樹の必要がなく、既存の根から新しい芽が自然に成長します。</p>
+<p class="text-gray-600 mb-6">当社のプランテーションでは化学農薬や肥料を使用しておらず、地域の水源を保護し、生態系全体の生物多様性を促進しています。</p>
+<div class="flex items-center space-x-4 mt-8">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-recycle-line text-xl"></i>
+</div>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">再生可能資源</h4>
+<p class="text-sm text-gray-600">竹はわずか3～5年で成熟します</p>
+</div>
+</div>
+<div class="flex items-center space-x-4 mt-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-earth-line text-xl"></i>
+</div>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">カーボンポジティブ</h4>
+<p class="text-sm text-gray-600">私たちのプランテーションは年間数千トンのCO₂を吸収します</p>
+</div>
 </div>
 </div>
 </div>
 </div>
 </section>
 </main>
+</div>
 <!-- Footer -->
 <footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
 <div class="container mx-auto px-4">
@@ -551,8 +488,8 @@ mobileMenu.innerHTML = `
 </div>
 <div class="mt-2 pl-4">
 <a href="company-profile.html" data-readdy="true" class="block py-2 text-gray-700">会社概要</a>
-<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">竹農園</a>
-<a href="plantation.html" class="block py-2 text-primary font-medium">竹繊維プラント</a>
+<a href="plantation.html" data-readdy="true" class="block py-2 text-primary font-medium">竹農園</a>
+<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">竹繊維プラント</a>
 <a href="tableware-facility.html" data-readdy="true" class="block py-2 text-gray-700">エコ食器工場</a>
 </div>
 </div>
@@ -588,8 +525,6 @@ playButton.addEventListener('click', function() {
 alert('Video playback would start here in a real implementation.');
 });
 }
-});
-document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </body>
