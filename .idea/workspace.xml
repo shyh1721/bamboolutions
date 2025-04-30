@@ -5,8 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ae/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/company-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/plantation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/processing-plant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/bakery/bakery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/bowls/bowls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/clamshell/clamshell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/plates/plates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/sushi/sushi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/a01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/et7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/t24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/product/trays/trays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/sustainability.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ae/tableware-facility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/company-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/plantation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/processing-plant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/bakery/bakery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/bowls/bowls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/clamshell/clamshell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/c2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/c2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/c2-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/c4-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/c4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/e12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/e15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/cup&amp;egg/e30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/plates/plates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/sushi/sushi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/a01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/et7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/t24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/product/trays/trays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/sustainability.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de/tableware-facility.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/trays.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,54 +100,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.a01.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.c2-1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.c2-2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-bakery.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-bowls.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-trays.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.category.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.company-profile.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.company-profile.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.e30.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.faq.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.modified-bamboolutions (2).html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.plantation.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.processing-plant.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sushi.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sustainability.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.t23.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.t24.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tableware-facility.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.trays.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Documents/GitHub/bamboolutions/jp/product&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.deepseek.my.translate.settings.AppSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.a01.html.executor": "Run",
+    "JavaScript Debug.c2-1.html.executor": "Run",
+    "JavaScript Debug.c2-2.html.executor": "Run",
+    "JavaScript Debug.cat-bakery.html.executor": "Run",
+    "JavaScript Debug.cat-bowls.html.executor": "Run",
+    "JavaScript Debug.cat-cup&egg.html.executor": "Run",
+    "JavaScript Debug.cat-trays.html.executor": "Run",
+    "JavaScript Debug.category.html.executor": "Run",
+    "JavaScript Debug.company-profile.html (1).executor": "Run",
+    "JavaScript Debug.company-profile.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.cup&egg.html.executor": "Run",
+    "JavaScript Debug.e30.html.executor": "Run",
+    "JavaScript Debug.faq.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.modified-bamboolutions (2).html.executor": "Run",
+    "JavaScript Debug.plantation.html.executor": "Run",
+    "JavaScript Debug.processing-plant.html.executor": "Run",
+    "JavaScript Debug.sushi.html.executor": "Run",
+    "JavaScript Debug.sustainability.html.executor": "Run",
+    "JavaScript Debug.t23.html.executor": "Run",
+    "JavaScript Debug.t24.html.executor": "Run",
+    "JavaScript Debug.tableware-facility.html.executor": "Run",
+    "JavaScript Debug.trays.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.deepseek.my.translate.settings.AppSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\ae" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\jp\product" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\jp" />
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\en" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\zh" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\zh\product\trays" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\jp" />
@@ -165,7 +231,7 @@
       <workItem from="1745651640226" duration="8952000" />
       <workItem from="1745825086359" duration="14547000" />
       <workItem from="1745910325708" duration="20983000" />
-      <workItem from="1745997342018" duration="1030000" />
+      <workItem from="1745997342018" duration="4439000" />
     </task>
     <servers />
   </component>

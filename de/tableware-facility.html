@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>竹制餐具生产基地 - Bamboolutions</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+.production-card {
+transition: all 0.3s ease;
+}
+.production-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.production-card:hover .learn-more {
+color: #4D8B31;
+}
+input:focus {
+outline: none;
+}
+.stats-card {
+transition: transform 0.3s ease;
+}
+.stats-card:hover {
+transform: translateY(-5px);
+}
+.gallery-item {
+overflow: hidden;
+}
+.gallery-item img {
+transition: transform 0.5s ease;
+}
+.gallery-item:hover img {
+transform: scale(1.05);
+}
+.video-container {
+position: relative;
+}
+.play-button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease;
+}
+.play-button:hover {
+transform: translate(-50%, -50%) scale(1.1);
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="index.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Startseite</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+Produkte
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="product/trays/trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Tabletts</a>
+<a href="product/bowls/bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Schalen</a>
+<a href="product/plates/plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Teller</a>
+<a href="product/clamshell/clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Klappboxen</a>
+<a href="product/sushi/sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Sushi-Behälter</a>
+<a href="product/bakery/bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bäckerei-Behälter</a>
+<a href="product/cup&egg/cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Becherhalter / Eierkartons</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
+Über Uns
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Unternehmensprofil</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bambusplantage</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">Bambusfaserfabrik</a>
+<a href="tableware-facility.html" class="block px-4 py-2 text-sm text-primary font-medium bg-gray-50">Ökologische Geschirrfabrik</a>
+</div>
+</div>
+</div>
+<a href="sustainability.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Nachhaltigkeit</a>
+<a href="contact.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Kontakt</a>
+</nav>
+<div class="flex items-center space-x-4">
+<div class="language-selector relative">
+<button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-global-line"></i>
+</div>
+<span>中文</span>
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="language-dropdown">
+<a href="../index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+<a href="../fr/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+<a href="../es/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+<a href="../jp/index.html" class="block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+</div>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<div class="mt-16">
+<!-- Hero Section -->
+<section class="relative h-[500px] overflow-hidden">
+<div style="background-image: url('../assets/tablewarefactor-airial.webp'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30"></div>
+<div class="container mx-auto px-6 h-full flex items-center relative z-10">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4">竹制餐具生产基地</h1>
+<p class="text-xl text-white/90 mb-6">先进的制造工厂，将竹纤维转化为优质环保餐具和包装解决方案</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Statistics Section -->
+<section class="py-12 bg-white">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-line-chart-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">120,000</h3>
+<p class="text-gray-600">年产量（吨）</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">大规模竹纤维成品制造能力</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-robot-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">260</h3>
+<p class="text-gray-600">生产设备</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">全自动餐具成型生产设备</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-building-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">110,000+</h3>
+<p class="text-gray-600">平方米</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">大型综合生产基地面积</p>
+</div>
+<div class="stats-card bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+<div class="flex items-center mb-4">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-7 h-7 flex items-center justify-center text-primary">
+<i class="ri-money-dollar-circle-line text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800">8400万</h3>
+<p class="text-gray-600">总投资（美元）</p>
+</div>
+</div>
+<p class="text-gray-600 text-sm">可持续制造的重大资本投入</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Facility Overview Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">尖端制造基地</h2>
+<p class="text-gray-600">我们位于湖南省的生产基地代表着我们对可持续制造卓越的承诺，利用我们加工厂的竹纤维创造优质环保餐具。</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div>
+<p class="text-gray-600 mb-6">我们的现代化工厂位于中国竹产区的核心地带，占地超过 110,000 平方米，拥有 260 台全自动生产设备。年产能达 120,000 吨，足以满足全球对可持续餐具解决方案的需求。</p>
+<p class="text-gray-600 mb-6">工厂采用先进的制造技术和严格的质量控制系统，确保每件产品都符合我们严格的标准。我们的生产线在保持对环境责任承诺的同时，实现了最大效率。</p>
+<div class="grid grid-cols-2 gap-4 mt-8">
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center text-primary mr-3">
+<i class="ri-recycle-line text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">零废弃</h4>
+<p class="text-sm text-gray-600">可持续生产</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center text-primary mr-3">
+<i class="ri-shield-check-line text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-800">ISO 认证</h4>
+<p class="text-sm text-gray-600">质量标准</p>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=interior%2520of%2520modern%2520bamboo%2520tableware%2520manufacturing%2520facility%2520with%2520rows%2520of%2520automated%2520production%2520machines%2C%2520workers%2520in%2520clean%2520uniforms%2520monitoring%2520equipment%2C%2520bright%2520well-lit%2520factory%2520floor%2C%2520conveyor%2520belts%2520with%2520bamboo%2520fiber%2520products%2C%2520quality%2520control%2520stations%2C%2520professional%2520industrial%2520photography&width=800&height=600&seq=2&orientation=landscape" alt="Bamboo Tableware Production Facility Interior" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+</section>
+<!-- Video Showcase Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">工厂参观</h2>
+<p class="text-gray-600">通过虚拟参观了解我们先进的制造设施，亲眼见证我们可持续的生产过程。</p>
+</div>
+<div class="video-container max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=panoramic%2520view%2520of%2520bamboo%2520tableware%2520manufacturing%2520facility%2520interior%2520with%2520production%2520lines%2C%2520workers%2520operating%2520machinery%2C%2520quality%2520control%2520stations%2C%2520packaging%2520area%2C%2520bright%2520modern%2520factory%2520with%2520clean%2520environment%2C%2520professional%2520industrial%2520photography%2C%2520wide%2520angle%2520shot&width=1200&height=675&seq=3&orientation=landscape" alt="Factory Walkthrough Video Thumbnail" class="w-full h-full object-cover">
+<div class="play-button w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center cursor-pointer shadow-lg">
+<div class="w-10 h-10 flex items-center justify-center text-white">
+<i class="ri-play-fill text-3xl"></i>
+</div>
+</div>
+</div>
+<div class="max-w-3xl mx-auto mt-8 text-center">
+<p class="text-gray-600">这个全面的视频参观展示了我们的整个生产过程，从原竹纤维加工到最终产品包装。见证我们在制造的每个阶段对质量、效率和可持续性的承诺。</p>
+</div>
+</div>
+</section>
+<!-- Production Process Gallery -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6 max-w-7xl">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">生产流程</h2>
+<p class="text-gray-600">我们全面的制造流程通过这些关键阶段将竹纤维转化为优质餐具。</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/c471f7feb053be16caacc382e893af43.png" alt="Raw Material Processing" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Raw Material Processing</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">1. 原料加工</h3>
+<p class="text-gray-600 text-sm">来自我们加工厂的竹纤维通过专有的环保方法进行准备和精炼，以供生产使用。</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/fb2958d929a57d4bf21d49a2fc7daa86.png" alt="Molding and Forming" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Molding and Forming</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">2. 模压成型</h3>
+<p class="text-gray-600 text-sm">我们先进的模压机器精确地将竹纤维塑造成各种品质稳定的餐具产品。</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/a05f2eb8a4e04d2d2c390bf56041e358.png" alt="Quality Control" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Quality Control</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">3. 质量控制</h3>
+<p class="text-gray-600 text-sm">严格的检验流程确保每件产品都符合我们对耐用性、安全性和外观的严格标准。</p>
+</div>
+</div>
+<div class="gallery-item rounded-lg overflow-hidden shadow-sm group">
+<div class="relative h-64">
+<img src="https://static.readdy.ai/image/79154f9ee72d8683d83084d73f0398a8/cb2253608543d4095713400f97f12989.png" alt="Packaging and Distribution" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<h3 class="text-xl font-semibold text-white">Packaging and Distribution</h3>
+</div>
+</div>
+<div class="p-4 bg-white">
+<h3 class="text-lg font-semibold text-gray-800 mb-2">4. 包装配送</h3>
+<p class="text-gray-600 text-sm">产品使用环保材料包装，准备向全球客户配送。</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quality Standards Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">质量标准与认证</h2>
+<p class="text-gray-600">我们的工厂严格遵守最高国际质量和安全标准，确保产品满足全球要求。</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-award-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">ISO 9001:2015</h3>
+<p class="text-gray-600">认证质量管理体系，确保产品质量稳定和客户满意度。</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-leaf-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">ISO 14001:2015</h3>
+<p class="text-gray-600">环境管理认证，展示我们对可持续制造实践的承诺。</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-shield-check-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">FDA 认证</h3>
+<p class="text-gray-600">所有产品符合 FDA 食品接触安全要求，确保消费者使用安全。</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-recycle-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">可生物降解</h3>
+<p class="text-gray-600">产品经认证可在商业堆肥设施中 180 天内自然分解。</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-plant-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">FSC 产销监管链</h3>
+<p class="text-gray-600">认证确保我们的竹材来源于负责任管理的森林和种植园。</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-test-tube-line text-2xl"></i>
+</div>
+</div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3">BSCI 合规</h3>
+<p class="text-gray-600">商业社会责任倡议认证，确保道德劳工实践和工作条件。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-16 bg-primary/10">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">Experience Our Sustainable Production</h2>
+<p class="text-gray-600 mb-8">Interested in seeing our facility in action? Schedule a virtual tour or request product samples to experience our quality firsthand.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-medium transition-colors whitespace-nowrap">
+Schedule a Virtual Tour
+</button>
+<button class="bg-white hover:bg-gray-50 text-gray-800 px-6 py-3 !rounded-button font-medium border border-gray-200 transition-colors whitespace-nowrap">
+Request Product Samples
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolutions</a>
+<p class="text-gray-400 mb-6">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4">快速链接</h3>
+<ul class="space-y-3">
+<li><a href="index.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">Startseite</a></li>
+<li><a href="category.html" class="text-gray-400 hover:text-white transition-colors">产品</a></li>
+<li><a href="company-profile.html" data-readdy="true" class="text-gray-400 hover:text-white transition-colors">关于我们</a></li>
+<li><a href="sustainability.html" class="text-gray-400 hover:text-white transition-colors">Nachhaltigkeit</a></li>
+<li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Kontakt</a></li>
+<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors">常见问题</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4">Kontakt</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400">中国生态工业园区123号，绿色城市，200120</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400">+86 21 5555 8888</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400">info@bamboolutions.com</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify
+
+-center">
+<i class="ri-time-line"></i>
+</div>
+<span class="ml-3 text-gray-400">周一至周五: 9:00 - 18:00</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4">订阅我们的通讯</h3>
+<p class="text-gray-400 mb-4">订阅以获取最新产品、可持续发展倡议和公司新闻。</p>
+<form class="flex">
+<input type="email" placeholder="输入您的邮箱" class="flex-1 bg-[#1F361F] border border-[#3D5F3D] rounded-l-lg px-4 py-2 text-white placeholder-gray-400 focus:border-primary">
+<button type="submit" class="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-r-lg transition-colors">
+订阅
+</button>
+</form>
+</div>
+</div>
+<div class="border-t border-[#3D5F3D] pt-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">© 2024 Bamboolutions. 保留所有权利。</p>
+<div class="flex space-x-6">
+<a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">隐私政策</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">使用条款</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookie政策</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox functionality
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+if (this.checked) {
+checkmark.classList.remove('hidden');
+} else {
+checkmark.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+<div class="p-4 flex justify-between items-center border-b">
+<span class="text-xl font-medium">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<nav class="p-4">
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>Products</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="#" class="block py-2 text-gray-700">Trays</a>
+<a href="#" class="block py-2 text-gray-700">Bowls</a>
+<a href="#" class="block py-2 text-gray-700">Plates</a>
+<a href="#" class="block py-2 text-gray-700">Clamshell Containers</a>
+<a href="#" class="block py-2 text-gray-700">Sushi Containers</a>
+<a href="#" class="block py-2 text-gray-700">Bakery Containers</a>
+<a href="#" class="block py-2 text-gray-700">Cup Holders / Egg Trays</a>
+</div>
+</div>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-primary font-medium">
+<span>About Us</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4">
+<a href="#" class="block py-2 text-gray-700">Company Profile</a>
+<a href="#" class="block py-2 text-gray-700">Bamboo Plantation</a>
+<a href="#" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
+<a href="#" class="block py-2 text-primary font-medium">Eco Tableware Factory</a>
+</div>
+</div>
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
+<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
+</nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Video play button functionality
+const playButton = document.querySelector('.play-button');
+if (playButton) {
+playButton.addEventListener('click', function() {
+alert('Video playback would start here in a production environment.');
+});
+}
+});
+</script>
+</body>
+</html>
