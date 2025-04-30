@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="" />
+    <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/product/trays/trays.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,47 +35,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.a01.html.executor": "Run",
-    "JavaScript Debug.c2-1.html.executor": "Run",
-    "JavaScript Debug.c2-2.html.executor": "Run",
-    "JavaScript Debug.cat-bakery.html.executor": "Run",
-    "JavaScript Debug.cat-bowls.html.executor": "Run",
-    "JavaScript Debug.cat-cup&egg.html.executor": "Run",
-    "JavaScript Debug.cat-trays.html.executor": "Run",
-    "JavaScript Debug.category.html.executor": "Run",
-    "JavaScript Debug.company-profile.html (1).executor": "Run",
-    "JavaScript Debug.company-profile.html.executor": "Run",
-    "JavaScript Debug.contact.html.executor": "Run",
-    "JavaScript Debug.cup&egg.html.executor": "Run",
-    "JavaScript Debug.e30.html.executor": "Run",
-    "JavaScript Debug.faq.html.executor": "Run",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.modified-bamboolutions (2).html.executor": "Run",
-    "JavaScript Debug.plantation.html.executor": "Run",
-    "JavaScript Debug.processing-plant.html.executor": "Run",
-    "JavaScript Debug.sushi.html.executor": "Run",
-    "JavaScript Debug.sustainability.html.executor": "Run",
-    "JavaScript Debug.t23.html.executor": "Run",
-    "JavaScript Debug.t24.html.executor": "Run",
-    "JavaScript Debug.tableware-facility.html.executor": "Run",
-    "JavaScript Debug.trays.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions/jp/product",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.deepseek.my.translate.settings.AppSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.a01.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.c2-1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.c2-2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cat-bakery.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cat-bowls.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cat-cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cat-trays.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.category.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.company-profile.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.company-profile.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.e30.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.faq.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.modified-bamboolutions (2).html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.plantation.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.processing-plant.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sushi.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sustainability.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.t23.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.t24.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tableware-facility.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.trays.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Documents/GitHub/bamboolutions/jp/product&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.deepseek.my.translate.settings.AppSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\jp\product" />
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.company-profile.html" />
         <item itemvalue="JavaScript Debug.company-profile.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.trays.html" />
-        <item itemvalue="JavaScript Debug.company-profile.html" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +164,8 @@
       <workItem from="1745635041770" duration="6100000" />
       <workItem from="1745651640226" duration="8952000" />
       <workItem from="1745825086359" duration="14547000" />
-      <workItem from="1745910325708" duration="20385000" />
+      <workItem from="1745910325708" duration="20983000" />
+      <workItem from="1745997342018" duration="1030000" />
     </task>
     <servers />
   </component>
