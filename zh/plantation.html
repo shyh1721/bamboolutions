@@ -211,10 +211,14 @@ margin: 0 10px;
 <div class="max-w-4xl mx-auto">
 <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">探索我们的竹林</h2>
 <div class="video-container shadow-lg">
-<img src="../assets/plantation-wt.mp4" alt="竹林视频" class="w-full h-full object-cover object-top">
-<div class="play-button">
-<i class="ri-play-fill"></i>
-</div>
+    <!-- Changed img to video element -->
+    <video class="w-full h-full object-cover object-top" id="bambooVideo">
+        <source src="../assets/plantation-wt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="play-button" id="playButton">
+        <i class="ri-play-fill"></i>
+    </div>
 </div>
 <p class="text-gray-600 mt-4 text-center">体验我们私有竹林基地的宁静与可持续发展</p>
 </div>
@@ -506,15 +510,28 @@ dropdown.classList.toggle('hidden');
 });
 });
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Video play button functionality
-const playButton = document.querySelector('.play-button');
-if (playButton) {
-playButton.addEventListener('click', function() {
-// In a real implementation, this would play the video
-alert('Video playback would start here in a real implementation.');
-});
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('bambooVideo');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'; // Hide play button when playing
+        } else {
+            video.pause();
+        }
+    });
+
+    video.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none';
+        } else {
+            video.pause();
+            playButton.style.display = 'block';
+        }
+    });
 });
 </script>
 </body>
