@@ -426,6 +426,113 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+ <div class="p-4 flex justify-between items-center border-b">
+  <span class="text-xl font-medium">
+   Menú
+  </span>
+  <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+   <i class="ri-close-line text-2xl">
+   </i>
+  </button>
+ </div>
+ <nav class="p-4">
+  <a class="block py-3 border-b border-gray-100 text-gray-800" data-readdy="true" href="index.html">
+   Inicio
+  </a>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-800">
+    <span>
+     Productos
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4 hidden">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="product/trays/trays.html">
+     Bandejas
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bowls/bowls.html">
+     Cuencos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/plates/plates.html">
+     Platos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/clamshell/clamshell.html">
+     Contenedores
+    </a>
+    <a class="block py-2 text-gray-700" href="product/sushi/sushi.html">
+     Contenedores de Sushi
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bakery/bakery.html">
+     Contenedores de Panadería
+    </a>
+    <a class="block py-2 text-gray-700" href="product/cup&amp;egg/cup&amp;egg.html">
+     Portavasos / Cartón de huevos
+    </a>
+   </div>
+  </div>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-700">
+    <span>
+     Sobre Nosotros
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="company-profile.html">
+     Perfil de la Empresa
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="plantation.html">
+     Plantación de Bambú
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="processing-plant.html">
+     Planta de Fibra de Bambú
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="tableware-facility.html">
+     Fábrica de Vajilla Ecológica
+    </a>
+   </div>
+  </div>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="sustainability.html">
+   Sostenibilidad
+  </a>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="contact.html">
+   Contacto
+  </a>
+ </nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
 </script>
 </body>
 </html>

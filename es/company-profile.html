@@ -610,48 +610,85 @@ const mobileMenu = document.createElement('div');
 mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
 mobileMenu.innerHTML = `
 <div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>Products</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/9a696c83-a3cd-4290-abad-ec36c90dad45" data-readdy="true" class="block py-2 text-gray-700">Trays</a>
-<a href="#" class="block py-2 text-gray-700">Bowls</a>
-<a href="#" class="block py-2 text-gray-700">Plates</a>
-<a href="#" class="block py-2 text-gray-700">Clamshell Containers</a>
-<a href="#" class="block py-2 text-gray-700">Sushi Containers</a>
-<a href="#" class="block py-2 text-gray-700">Bakery Containers</a>
-<a href="#" class="block py-2 text-gray-700">Cup Holders / Egg Trays</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-primary font-medium">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4">
-<a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/d0b79a71-af6f-4987-8ae2-550b73bb7afb" data-readdy="true" class="block py-2 text-primary font-medium">Company Profile</a>
-<a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/ef13511f-9cad-4c93-8bec-eca7e9d21e5d" data-readdy="true" class="block py-2 text-gray-700">Bamboo Plantation</a>
-<a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/05bd041b-d112-4d50-b367-853e003f8b0e" data-readdy="true" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
-<a href="https://readdy.ai/home/5b096b7c-2113-473c-b0b4-1b0e923d65fe/a3339a95-36f6-4e52-982b-3084402e7748" data-readdy="true" class="block py-2 text-gray-700">Eco Tableware Factory</a>
-</div>
-</div>
-<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
-<a href="#" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
-</nav>
+ <div class="p-4 flex justify-between items-center border-b">
+  <span class="text-xl font-medium">
+   Menú
+  </span>
+  <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+   <i class="ri-close-line text-2xl">
+   </i>
+  </button>
+ </div>
+ <nav class="p-4">
+  <a class="block py-3 border-b border-gray-100 text-gray-800" data-readdy="true" href="index.html">
+   Inicio
+  </a>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-800">
+    <span>
+     Productos
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4 hidden">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="product/trays/trays.html">
+     Bandejas
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bowls/bowls.html">
+     Cuencos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/plates/plates.html">
+     Platos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/clamshell/clamshell.html">
+     Contenedores
+    </a>
+    <a class="block py-2 text-gray-700" href="product/sushi/sushi.html">
+     Contenedores de Sushi
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bakery/bakery.html">
+     Contenedores de Panadería
+    </a>
+    <a class="block py-2 text-gray-700" href="product/cup&amp;egg/cup&amp;egg.html">
+     Portavasos / Cartón de huevos
+    </a>
+   </div>
+  </div>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-700">
+    <span>
+     Sobre Nosotros
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4">
+    <a class="block py-2 text-primary font-medium" data-readdy="true" href="company-profile.html">
+     Perfil de la Empresa
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="plantation.html">
+     Plantación de Bambú
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="processing-plant.html">
+     Planta de Fibra de Bambú
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="tableware-facility.html">
+     Fábrica de Vajilla Ecológica
+    </a>
+   </div>
+  </div>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="sustainability.html">
+   Sostenibilidad
+  </a>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="contact.html">
+   Contacto
+  </a>
+ </nav>
 </div>
 `;
 document.body.appendChild(mobileMenu);

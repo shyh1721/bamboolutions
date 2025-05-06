@@ -108,12 +108,9 @@ transform: scale(1.05);
 <!-- Header Section -->
 <header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
 <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-<li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Inicio</a></li>
-<li><a href="trays.html" class="text-gray-400 hover:text-white transition-colors">Productos</a></li>
 <a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
 <nav class="hidden md:flex items-center space-x-8">
 <a href="index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors">Inicio</a>
-<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors">Preguntas frecuentes</a></li>
 <div class="relative group">
 <button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center">
 Productos
@@ -587,48 +584,85 @@ const mobileMenu = document.createElement('div');
 mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
 mobileMenu.innerHTML = `
 <div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="index.html" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>Products</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="product/trays/trays.html" class="block py-2 text-gray-700">Trays</a>
-<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
-<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
-<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
-<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
-<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
-<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Holders / Egg Trays</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-primary font-medium">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4">
-<a href="company-profile.html" class="block py-2 text-gray-700">Company Profile</a>
-<a href="plantation.html" class="block py-2 text-gray-700">Bamboo Plantation</a>
-<a href="processing-plant.html" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
-<a href="tableware-facility.html" class="block py-2 text-primary font-medium">Eco Tableware Factory</a>
-</div>
-</div>
-<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
-<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
-</nav>
+ <div class="p-4 flex justify-between items-center border-b">
+  <span class="text-xl font-medium">
+   Menú
+  </span>
+  <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+   <i class="ri-close-line text-2xl">
+   </i>
+  </button>
+ </div>
+ <nav class="p-4">
+  <a class="block py-3 border-b border-gray-100 text-gray-800" data-readdy="true" href="index.html">
+   Inicio
+  </a>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-800">
+    <span>
+     Productos
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4 hidden">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="product/trays/trays.html">
+     Bandejas
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bowls/bowls.html">
+     Cuencos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/plates/plates.html">
+     Platos
+    </a>
+    <a class="block py-2 text-gray-700" href="product/clamshell/clamshell.html">
+     Contenedores
+    </a>
+    <a class="block py-2 text-gray-700" href="product/sushi/sushi.html">
+     Contenedores de Sushi
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bakery/bakery.html">
+     Contenedores de Panadería
+    </a>
+    <a class="block py-2 text-gray-700" href="product/cup&amp;egg/cup&amp;egg.html">
+     Portavasos / Cartón de huevos
+    </a>
+   </div>
+  </div>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-700">
+    <span>
+     Sobre Nosotros
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="company-profile.html">
+     Perfil de la Empresa
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="plantation.html">
+     Plantación de Bambú
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="processing-plant.html">
+     Planta de Fibra de Bambú
+    </a>
+    <a class="block py-2 text-primary font-medium" data-readdy="true" href="tableware-facility.html">
+     Fábrica de Vajilla Ecológica
+    </a>
+   </div>
+  </div>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="sustainability.html">
+   Sostenibilidad
+  </a>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="contact.html">
+   Contacto
+  </a>
+ </nav>
 </div>
 `;
 document.body.appendChild(mobileMenu);
@@ -649,6 +683,7 @@ dropdown.classList.toggle('hidden');
 });
 });
 });
+
 document.addEventListener('DOMContentLoaded', () => {
     const video = document.getElementById('bambooVideo');
     const playButton = document.getElementById('playButton');
