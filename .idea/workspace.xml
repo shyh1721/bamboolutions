@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/processing-plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/processing-plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plantation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +183,7 @@
       <workItem from="1745997342018" duration="18889000" />
       <workItem from="1746019753454" duration="7479000" />
       <workItem from="1746514833628" duration="7745000" />
-      <workItem from="1746526556376" duration="1604000" />
+      <workItem from="1746526556376" duration="3019000" />
     </task>
     <servers />
   </component>
