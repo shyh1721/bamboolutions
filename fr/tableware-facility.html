@@ -76,18 +76,32 @@ transition: transform 0.5s ease;
 transform: scale(1.05);
 }
 .video-container {
-position: relative;
+    position: relative;
+    cursor: pointer;
+    background: #000;
 }
+
 .play-button {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-transition: all 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
+
 .play-button:hover {
-transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
 }
+
+#bambooVideo {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+}
+
 </style>
 </head>
 <body class="overflow-x-hidden">
@@ -287,8 +301,10 @@ Produits
 <p class="text-gray-600">Faites une visite virtuelle de notre installation de fabrication avancée et assistez à notre processus de production durable en action.</p>
 </div>
 <div class="video-container max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=panoramic%2520view%2520of%2520bamboo%2520tableware%2520manufacturing%2520facility%2520interior%2520with%2520production%2520lines%2C%2520workers%2520operating%2520machinery%2C%2520quality%2520control%2520stations%2C%2520packaging%2520area%2C%2520bright%2520modern%2520factory%2520with%2520clean%2520environment%2C%2520professional%2520industrial%2520photography%2C%2520wide%2520angle%2520shot&width=1200&height=675&seq=3&orientation=landscape" alt="Factory Walkthrough Video Thumbnail" class="w-full h-full object-cover">
-<div class="play-button w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center cursor-pointer shadow-lg">
+ <video class="w-full h-full object-cover object-top" id="bambooVideo">
+        <source src="../assets/tw-factory.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video><div class="play-button w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center cursor-pointer shadow-lg">
 <div class="w-10 h-10 flex items-center justify-center text-white">
 <i class="ri-play-fill text-3xl"></i>
 </div>
@@ -631,14 +647,28 @@ dropdown.classList.toggle('hidden');
 });
 });
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Video play button functionality
-const playButton = document.querySelector('.play-button');
-if (playButton) {
-playButton.addEventListener('click', function() {
-alert('Video playback would start here in a production environment.');
-});
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('bambooVideo');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'; // Hide play button when playing
+        } else {
+            video.pause();
+        }
+    });
+
+    video.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none';
+        } else {
+            video.pause();
+            playButton.style.display = 'block';
+        }
+    });
 });
 </script>
 </body>

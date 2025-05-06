@@ -58,45 +58,30 @@ input:focus {
 outline: none;
 }
 .video-container {
-position: relative;
-overflow: hidden;
-border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    background: #000;
 }
-.video-container::before {
-content: '';
-display: block;
-padding-top: 56.25%;
-}
-.video-container img {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
+
 .play-button {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 80px;
-height: 80px;
-background-color: rgba(255, 255, 255, 0.9);
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-transition: all 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
+
 .play-button:hover {
-background-color: #4D8B31;
-color: white;
+    opacity: 1;
 }
-.play-button i {
-font-size: 32px;
-margin-left: 5px;
+
+#bambooVideo {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
 }
 .breadcrumb-item {
 position: relative;
@@ -311,10 +296,13 @@ margin: 0 10px;
 <div class="max-w-4xl mx-auto">
 <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Processing Plant in Action</h2>
 <div class="video-container shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=bamboo%2520fiber%2520processing%2520plant%2520interior%2520with%2520modern%2520machinery%2520in%2520operation%252C%2520workers%2520in%2520clean%2520uniforms%2520and%2520safety%2520equipment%2520monitoring%2520production%2520line%252C%2520conveyor%2520belts%2520moving%2520processed%2520bamboo%2520fiber%252C%2520bright%2520industrial%2520lighting%252C%2520clean%2520facility%252C%2520professional%2520industrial%2520videography%2520still%2520frame&width=1280&height=720&seq=22&orientation=landscape" alt="Processing Plant Video" class="w-full h-full object-cover object-top">
-<div class="play-button">
-<i class="ri-play-fill"></i>
-</div>
+<video class="w-full h-full object-cover object-top" id="bambooVideo">
+        <source src="../assets/plant-wt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="play-button" id="playButton">
+        <i class="ri-play-fill"></i>
+    </div>
 </div>
 <p class="text-gray-600 mt-6 text-center">See our state-of-the-art bamboo fiber processing facility in operation, showcasing our commitment to quality, efficiency, and sustainability.</p>
 </div>
@@ -567,15 +555,28 @@ dropdown.classList.toggle('hidden');
 });
 });
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Video play button functionality
-const playButton = document.querySelector('.play-button');
-if (playButton) {
-playButton.addEventListener('click', function() {
-// In a real implementation, this would play the video
-alert('Video playback would start here in a real implementation.');
-});
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('bambooVideo');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'; // Hide play button when playing
+        } else {
+            video.pause();
+        }
+    });
+
+    video.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none';
+        } else {
+            video.pause();
+            playButton.style.display = 'block';
+        }
+    });
 });
 document.addEventListener('DOMContentLoaded', function() {
 });
