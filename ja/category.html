@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Categories - Bamboolutions</title>
+<title>製品 - Bamboolutions</title>
 <script src="https://cdn.tailwindcss.com/3.4.16"></script>
 <script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -430,48 +430,85 @@ const mobileMenu = document.createElement('div');
 mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
 mobileMenu.innerHTML = `
 <div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="index.html" data-readdy="true" class="block py-3 border-b border-gray-100 text-gray-800">ホーム</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>产品</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="product/trays/trays.html" data-readdy="true" class="block py-2 text-gray-700">トレイ</a>
-<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">ボウル</a>
-<a href="product/plates/plates.html" class="block py-2 text-gray-700">プレート</a>
-<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">クラムシェル容器</a>
-<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">寿司容器</a>
-<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">ベーカリー容器</a>
-<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">カップホルダー／卵パック</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-primary font-medium">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4">
-<a href="company-profile.html" data-readdy="true" class="block py-2 text-primary font-medium">会社概要</a>
-<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">竹農園</a>
-<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">竹繊維プラント</a>
-<a href="tableware-facility.html" data-readdy="true" class="block py-2 text-gray-700">エコ食器工場</a>
-</div>
-</div>
-<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">持続可能性</a>
-<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">お問い合わせ</a>
-</nav>
+ <div class="p-4 flex justify-between items-center border-b">
+  <span class="text-xl font-medium">
+   メニュー
+  </span>
+  <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+   <i class="ri-close-line text-2xl">
+   </i>
+  </button>
+ </div>
+ <nav class="p-4">
+  <a class="block py-3 border-b border-gray-100 text-gray-800" data-readdy="true" href="index.html">
+   ホーム
+  </a>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-800">
+    <span>
+     製品
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4 hidden">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="product/trays/trays.html">
+     トレイ
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bowls/bowls.html">
+     ボウル
+    </a>
+    <a class="block py-2 text-gray-700" href="product/plates/plates.html">
+     プレート
+    </a>
+    <a class="block py-2 text-gray-700" href="product/clamshell/clamshell.html">
+     クラムシェル容器
+    </a>
+    <a class="block py-2 text-gray-700" href="product/sushi/sushi.html">
+     寿司容器
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bakery/bakery.html">
+     ベーカリー容器
+    </a>
+    <a class="block py-2 text-gray-700" href="product/cup&amp;egg/cup&amp;egg.html">
+     カップホルダー／卵パック
+    </a>
+   </div>
+  </div>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-700">
+    <span>
+     私たちについて
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="company-profile.html">
+     会社概要
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="plantation.html">
+     竹農園
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="processing-plant.html">
+     竹繊維プラント
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="tableware-facility.html">
+     エコ食器工場
+    </a>
+   </div>
+  </div>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="sustainability.html">
+   持続可能性
+  </a>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="contact.html">
+   お問い合わせ
+  </a>
+ </nav>
 </div>
 `;
 document.body.appendChild(mobileMenu);

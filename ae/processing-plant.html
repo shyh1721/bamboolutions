@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bamboo Fiber Processing Plant - Bamboolutions</title>
+<title>مصنع ألياف الخيزران - Bamboolutions</title>
 <script src="https://cdn.tailwindcss.com/3.4.16"></script>
 <script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -505,48 +505,85 @@ const mobileMenu = document.createElement('div');
 mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
 mobileMenu.innerHTML = `
 <div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="index.html" data-readdy="true" class="block py-3 border-b border-gray-100 text-gray-800">الرئيسية</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>Products</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="product/trays/trays.html" data-readdy="true" class="block py-2 text-gray-700">صواني</a>
-<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">أوعية</a>
-<a href="product/plates/plates.html" class="block py-2 text-gray-700">أطباق</a>
-<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">حاويات بغطاء</a>
-<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">حاويات السوشي</a>
-<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">حاويات المخبوزات</a>
-<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">حاملات الأكواب / صواني البيض</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-primary font-medium">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4">
-<a href="company-profile.html" data-readdy="true" class="block py-2 text-gray-700">الملف التعريفي للشركة</a>
-<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">مزرعة الخيزران</a>
-<a href="plantation.html" class="block py-2 text-primary font-medium">مصنع ألياف الخيزران</a>
-<a href="tableware-facility.html" data-readdy="true" class="block py-2 text-gray-700">مصنع أدوات المائدة البيئية</a>
-</div>
-</div>
-<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">الاستدامة</a>
-<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">اتصل بنا</a>
-</nav>
+ <div class="p-4 flex justify-between items-center border-b">
+  <span class="text-xl font-medium">
+   قائمة
+  </span>
+  <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+   <i class="ri-close-line text-2xl">
+   </i>
+  </button>
+ </div>
+ <nav class="p-4">
+  <a class="block py-3 border-b border-gray-100 text-gray-800" data-readdy="true" href="index.html">
+   الرئيسية
+  </a>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-800">
+    <span>
+     المنتجات
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4 hidden">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="product/trays/trays.html">
+     صواني
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bowls/bowls.html">
+     أوعية
+    </a>
+    <a class="block py-2 text-gray-700" href="product/plates/plates.html">
+     أطباق
+    </a>
+    <a class="block py-2 text-gray-700" href="product/clamshell/clamshell.html">
+     حاويات بغطاء
+    </a>
+    <a class="block py-2 text-gray-700" href="product/sushi/sushi.html">
+     Sushi-حاويات السوشي
+    </a>
+    <a class="block py-2 text-gray-700" href="product/bakery/bakery.html">
+     حاويات المخبوزات
+    </a>
+    <a class="block py-2 text-gray-700" href="product/cup&amp;egg/cup&amp;egg.html">
+     كرتون البيض / صواني البيض
+    </a>
+   </div>
+  </div>
+  <div class="py-3 border-b border-gray-100">
+   <div class="flex justify-between items-center text-gray-700">
+    <span>
+     من نحن
+    </span>
+    <div class="w-8 h-8 flex items-center justify-center">
+     <i class="ri-arrow-down-s-line">
+     </i>
+    </div>
+   </div>
+   <div class="mt-2 pl-4">
+    <a class="block py-2 text-gray-700" data-readdy="true" href="company-profile.html">
+     الملف التعريفي للشركة
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="plantation.html">
+     مزرعة الخيزران
+    </a>
+    <a class="block py-2 text-primary font-medium" data-readdy="true" href="processing-plant.html">
+     مصنع ألياف الخيزران
+    </a>
+    <a class="block py-2 text-gray-700" data-readdy="true" href="tableware-facility.html">
+     مصنع أدوات المائدة البيئية
+    </a>
+   </div>
+  </div>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="sustainability.html">
+   الاستدامة
+  </a>
+  <a class="block py-3 border-b border-gray-100 text-gray-800" href="contact.html">
+   اتصل بنا
+  </a>
+ </nav>
 </div>
 `;
 document.body.appendChild(mobileMenu);
