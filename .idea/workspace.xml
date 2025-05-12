@@ -6,11 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ae/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plantation-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plantation-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plantation-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plantation-main.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plantation-main.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/profile-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/profile-1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/de/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/de/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bowls/bowls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/plantation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/plantation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,51 +51,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.a01.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.c2-1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.c2-2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-bakery.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-bowls.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cat-trays.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.category.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.clamshell.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.company-profile.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.company-profile.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.cup&amp;egg.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.e30.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.et7.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.faq.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.modified-bamboolutions (2).html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.plantation.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.processing-plant.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sushi.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sustainability.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.t23.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.t24.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tableware-facility.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.trays.html (1).executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.trays.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/Documents/GitHub/bamboolutions&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.deepseek.my.translate.settings.AppSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.a01.html.executor": "Run",
+    "JavaScript Debug.bowls.html.executor": "Run",
+    "JavaScript Debug.c2-1.html.executor": "Run",
+    "JavaScript Debug.c2-2.html.executor": "Run",
+    "JavaScript Debug.cat-bakery.html.executor": "Run",
+    "JavaScript Debug.cat-bowls.html.executor": "Run",
+    "JavaScript Debug.cat-cup&egg.html.executor": "Run",
+    "JavaScript Debug.cat-trays.html.executor": "Run",
+    "JavaScript Debug.category.html.executor": "Run",
+    "JavaScript Debug.clamshell.html.executor": "Run",
+    "JavaScript Debug.company-profile.html (1).executor": "Run",
+    "JavaScript Debug.company-profile.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.cup&egg.html.executor": "Run",
+    "JavaScript Debug.e30.html.executor": "Run",
+    "JavaScript Debug.et7.html.executor": "Run",
+    "JavaScript Debug.faq.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.modified-bamboolutions (2).html.executor": "Run",
+    "JavaScript Debug.plantation.html.executor": "Run",
+    "JavaScript Debug.processing-plant.html.executor": "Run",
+    "JavaScript Debug.sushi.html.executor": "Run",
+    "JavaScript Debug.sustainability.html.executor": "Run",
+    "JavaScript Debug.t23.html.executor": "Run",
+    "JavaScript Debug.t24.html.executor": "Run",
+    "JavaScript Debug.tableware-facility.html.executor": "Run",
+    "JavaScript Debug.trays.html (1).executor": "Debug",
+    "JavaScript Debug.trays.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/GitHub/bamboolutions",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.deepseek.my.translate.settings.AppSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions" />
@@ -103,7 +113,7 @@
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets\trays" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.company-profile.html">
+  <component name="RunManager">
     <configuration name="company-profile.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/fr/company-profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -180,7 +190,8 @@
       <workItem from="1746019753454" duration="7479000" />
       <workItem from="1746514833628" duration="7745000" />
       <workItem from="1746526556376" duration="30971000" />
-      <workItem from="1747035453019" duration="406000" />
+      <workItem from="1747035453019" duration="3632000" />
+      <workItem from="1747051239268" duration="6509000" />
     </task>
     <servers />
   </component>
