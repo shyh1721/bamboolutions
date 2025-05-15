@@ -283,15 +283,19 @@ Sobre Nosotros
 <div class="container mx-auto px-6">
 <div class="max-w-4xl mx-auto">
 <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Planta de Procesamiento en Acción</h2>
-<div class="video-container shadow-lg">
-<video class="w-full h-full object-cover object-top" id="bambooVideo">
-        <source src="../assets/plant-wt.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-<div class="play-button" id="playButton">
-        <i class="ri-play-fill"></i>
-</div>
-</div>
+<div class="max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg aspect-video">
+            <!-- Aspect ratio container (16:9) -->
+            <div class="relative w-full h-0 pb-[56.25%]">
+                <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://www.youtube.com/embed/ZJiDViQh31w"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 <p class="text-gray-600 mt-6 text-center">Vea nuestra planta de procesamiento de fibra de bambú de última generación en funcionamiento, mostrando nuestro compromiso con la calidad, la eficiencia y la sostenibilidad.</p>
 </div>
 </div>

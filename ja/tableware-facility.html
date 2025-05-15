@@ -287,7 +287,7 @@ transform: scale(1.05);
 </div>
 </div>
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="https://readdy.ai/api/search-image?query=interior%2520of%2520modern%2520bamboo%2520tableware%2520manufacturing%2520facility%2520with%2520rows%2520of%2520automated%2520production%2520machines%2C%2520workers%2520in%2520clean%2520uniforms%2520monitoring%2520equipment%2C%2520bright%2520well-lit%2520factory%2520floor%2C%2520conveyor%2520belts%2520with%2520bamboo%2520fiber%2520products%2C%2520quality%2520control%2520stations%2C%2520professional%2520industrial%2520photography&width=800&height=600&seq=2&orientation=landscape" alt="Bamboo Tableware Production Facility Interior" class="w-full h-full object-cover object-top">
+<img src="../assets/productionline.webp" alt="Bamboo Tableware Production Facility Interior" class="w-full h-full object-cover object-top">
 </div>
 </div>
 </div>
@@ -299,17 +299,20 @@ transform: scale(1.05);
 <h2 class="text-3xl font-bold text-gray-800 mb-4">施設ツアー</h2>
 <p class="text-gray-600">私たちの高度な製造施設をバーチャルで見学し、持続可能な生産プロセスを実際に見てください。</p>
 </div>
-<div class="video-container max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
- <video class="w-full h-full object-cover object-top" id="bambooVideo">
-        <source src="../assets/tw-factory.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="play-button" id="playButton">
-        <i class="ri-play-fill"></i>
-    </div>
-</div>
+<div class="max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg aspect-video">
+            <!-- Aspect ratio container (16:9) -->
+            <div class="relative w-full h-0 pb-[56.25%]">
+                <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://www.youtube.com/embed/QyPJlN40Lks"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 <p class="text-gray-600 mt-6 text-center">この包括的なビデオツアーでは、竹繊維の加工から最終製品の包装まで、私たちの全生産プロセスをご覧いただけます。製造のすべての段階での品質、効率、持続可能性へのコミットメントをご確認ください。</p>
-</div>
 </div>
 </section>
 <!-- Production Process Gallery -->
@@ -437,7 +440,7 @@ transform: scale(1.05);
 </div>
 </section>
 <!-- CTA Section -->
-<section class="py-16 bg-primary/10">
+<section class="py-16 bg-primary/10 hidden">
 <div class="container mx-auto px-6">
 <div class="max-w-4xl mx-auto text-center">
 <h2 class="text-3xl font-bold text-gray-800 mb-4">私たちの持続可能な生産を体験してください</h2>
