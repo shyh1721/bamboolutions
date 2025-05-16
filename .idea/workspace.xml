@@ -7,18 +7,20 @@
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ae/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/company-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fiber-plant-e1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fiber-plant-e2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/profile-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/profile-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/profile-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/profile-main.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ae/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tableware-factory-1.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/de/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/de/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/de/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/de/sustainability.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/sustainability.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/sustainability.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fr/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/sustainability.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ja/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/sustainability.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zh/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/sustainability.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +201,7 @@
       <workItem from="1747051239268" duration="6509000" />
       <workItem from="1747058355172" duration="19098000" />
       <workItem from="1747146894280" duration="26322000" />
-      <workItem from="1747294636828" duration="19258000" />
+      <workItem from="1747294636828" duration="23285000" />
     </task>
     <servers />
   </component>
