@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ae/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/de/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/de/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/sustainability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ae/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/de/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/de/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/es/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja/company-profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="C:\Users\lenovo\Documents\GitHub\bamboolutions\assets\trays" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.company-profile.html">
     <configuration name="company-profile.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bamboolutions/fr/company-profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -195,7 +195,8 @@
       <workItem from="1747294636828" duration="23285000" />
       <workItem from="1747392056723" duration="12053000" />
       <workItem from="1747409906941" duration="488000" />
-      <workItem from="1747463366814" duration="4883000" />
+      <workItem from="1747463366814" duration="5033000" />
+      <workItem from="1747468570257" duration="84000" />
     </task>
     <servers />
   </component>
