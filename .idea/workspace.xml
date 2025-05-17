@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8521ebc5-0508-4cd8-89ee-14c8eef12829" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/bakery/bakery.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bakery/bakery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/bowls/bowls.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/bowls/bowls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/clamshell/clamshell.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/clamshell/clamshell.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/cup&amp;egg/cup&amp;egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/cup&amp;egg/cup&amp;egg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/plates/plates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/sushi/sushi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr/product/plates/plates.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/plates/plates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr/product/sushi/sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/sushi/sushi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr/product/trays/trays.html" beforeDir="false" afterPath="$PROJECT_DIR$/fr/product/trays/trays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +189,7 @@
       <workItem from="1747294636828" duration="23285000" />
       <workItem from="1747392056723" duration="12053000" />
       <workItem from="1747409906941" duration="488000" />
-      <workItem from="1747463366814" duration="4071000" />
+      <workItem from="1747463366814" duration="4505000" />
     </task>
     <servers />
   </component>
